@@ -33,13 +33,21 @@ const AppDevelopment = () => {
         <>
             <section>
                 <div className="AppDevelopmentProjectContainer">
-                    <div style={{ height: "50vh" }}>
-
+                    <div className="TopContainer">
+                        <div>
+                            <h4>/ App Development</h4>
+                            <div style={{ display: "flex", justifyContent: "space-Between", padding: "2rem 0rem" }}>
+                                <h2>App Innovation</h2>
+                            </div>
+                        </div>
                     </div>
                     <div className="CardContinerPadding">
                         <div className="ProjectsCards">
                             {AppDevelopmentProjetsData.map((item, index) => (
-                                <div className="ProjectCard" key={index}>
+                                <div className="ProjectCard" key={index}
+                                    data-aos="fade-up"
+                                    data-aos-duration="1000"
+                                    data-aos-delay={`${index * 100}`}>
                                     <div className="ProjectimageContiner">
 
                                     </div>

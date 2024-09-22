@@ -114,8 +114,8 @@ const AgiluxNavigation = () => {
             children:
                 <>
                     <div className="NavigationChildLinks">
-                        <Link to="/appdevelopment"><p>App Development</p></Link>
-                        <p>Web Development</p>
+                        <Link to="/appdevelopment"><p onClick={onClose}>App Development</p></Link>
+                        <Link to="/webdevelopment"><p onClick={onClose}>Web Development</p></Link>
                     </div>
                 </>,
         },
@@ -135,7 +135,7 @@ const AgiluxNavigation = () => {
         <div className={`AgiluxNavigation ${scrolled ? 'scrolled' : ''}`}>
             <div className="NavigationContainer">
                 <div className="AgiluxLogoAnimated">
-                    <h4>Agilux</h4>
+                    <Link to="/"><h4>Agilux</h4></Link>
                     <div className="ExploreTabs" onClick={showDrawer}>
                         <span>menu</span>
                     </div>

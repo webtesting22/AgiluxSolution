@@ -53,12 +53,14 @@ const AgiluxServices = () => {
                 <div className="AgiluxCoreServicesContainer">
                     <h4 style={{ color: "black", fontWeight: "400" }}>/ Our Services</h4>
                     <div style={{ display: "flex", justifyContent: "space-Between", padding: "2rem 0rem" }}>
-                        <h2>Leading with Purpose</h2>
+                        <h2>Business Solutions</h2>
                     </div>
                     {/* <div className="AgiluxServicesContainer"> */}
 
                     {AgiluxServices.map((item, index) => (
-                        <div key={index} className="AgiluxServicesContainer">
+                        <div key={index} className="AgiluxServicesContainer" data-aos="fade-up"
+                            data-aos-duration="1000"
+                            data-aos-delay={`${index * 100}`}>
                             <div className="InsideFlexContainer">
                                 {/* <img src={item.image} alt=""  className="AbsoluteImage"/> */}
                                 <div>

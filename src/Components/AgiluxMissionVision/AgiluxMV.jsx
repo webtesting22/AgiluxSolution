@@ -6,7 +6,8 @@ const AgiluxMV = () => {
         <>
             <section>
                 <div className="AgiluxMissionVisionContainer">
-                    <div className="SameContainer">
+                    <div className="SameContainer" data-aos="fade-up"
+                        data-aos-duration="1000">
                         <h4>/ Mission</h4>
                         <br />
                         <div className="OurMissionDetails">
@@ -20,7 +21,8 @@ const AgiluxMV = () => {
                         </div>
                     </div>
                     <hr />
-                    <div className="SameContainer">
+                    <div className="SameContainer" data-aos="fade-up"
+                        data-aos-duration="1000">
                         <h4>/ Vision</h4>
                         <br />
                         <div className="OurMissionDetails">

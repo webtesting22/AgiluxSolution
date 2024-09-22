@@ -30,13 +30,15 @@ const AgiluxWhyUs = () => {
                 <div className="WhyUsAgilux">
                     <h4>/ WHY US?</h4>
                     <div style={{ display: "flex", justifyContent: "space-Between", padding: "2rem 0rem" }}>
-                        <h2>Leading with Purpose</h2>
+                        <h2>Your Success</h2>
                     </div>
                     <div className="AgiluxWhyUsContainer">
 
                         <div className="WhyUsAnimatedCards">
                             {AgiluxWhyUsContent.map((item, index) => (
-                                <div key={index} className="AnimatedCardWhyUs">
+                                <div key={index} className="AnimatedCardWhyUs"  data-aos="fade-up"
+                                data-aos-duration="1000"
+                                data-aos-delay={`${index * 100}`}>
                                     <p> {item.Title}</p>
                                     <br />
                                     <p>{item.Desctiption}</p>

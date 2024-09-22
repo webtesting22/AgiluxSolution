@@ -1,0 +1,28 @@
+.ProjectsCards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ProjectCard {
+    width: 40%;
+    margin: 20px 0px;
+    padding: 0px 2rem;
+}
+
+.ProjectCard:nth-child(even) {
+    margin-top: 7rem;
+}
+
+.CardContinerPadding {
+    padding: 0rem 8rem;
+}
+
+.ProjectimageContiner {
+    height: 300px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgb(24, 24, 24);
+}

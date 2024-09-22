@@ -5,7 +5,7 @@
 }
 
 .BlackOverlay {
-    background-color: rgba(0, 0, 0, 0.683);
+    background-color: rgba(0, 0, 0, 0.758);
     position: absolute;
     height: 100%;
     width: 100%;
@@ -16,6 +16,7 @@
     position: relative;
     display: flex;
     justify-content: center;
+    padding-top: 0px;
 }
 
 .AgiluxHomeContentContainer {
@@ -87,9 +88,11 @@
         justify-content: center;
         height: 80vh;
     }
-    .AgiluxHomeContentContainer .mySwiper{
+
+    .AgiluxHomeContentContainer .mySwiper {
         height: 50px;
     }
+
     .AgiluxHomeContentContainer {
         position: absolute;
         z-index: 5;

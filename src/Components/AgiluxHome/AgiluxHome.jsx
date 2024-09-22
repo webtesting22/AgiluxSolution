@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { ssrExportAllKey } from "vite/runtime";
-import BackVideo from "./BackVideo.mp4"
+import BackVideo from "./BackGround.mp4"
 import "./AgiluxHome.css"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { FaArrowRightLong } from "react-icons/fa6";
@@ -29,6 +29,31 @@ const TextSlider = [
     }
 ]
 const AgiluxHome = () => {
+    const videoRef = useRef(null);
+    const [isFading, setIsFading] = useState(false);
+
+    useEffect(() => {
+        if (videoRef.current) {
+            videoRef.current.playbackRate = 1.0; // Adjust the speed if needed
+        }
+    }, []);
+
+    // Handle video time updates to fade out near the end
+    const handleTimeUpdate = () => {
+        const video = videoRef.current;
+        if (video && video.duration - video.currentTime <= 0.5) { // 0.5 seconds before the video ends
+            setIsFading(true); // Trigger fade out
+        }
+    };
+
+    // Handle video ending event to loop smoothly
+    const handleVideoEnd = () => {
+        const video = videoRef.current;
+        setIsFading(false); // Reset fading
+        video.currentTime = 0; // Reset video to the start
+        video.play(); // Restart the video
+    };
+
     const headings = [
         "Transforming Ideas into Digital Reality",
         "Innovative Solutions for Web and Mobile",
@@ -52,11 +77,23 @@ const AgiluxHome = () => {
         return () => clearInterval(interval);
     }, [headings.length]);
 
+
     return (
         <>
             <section className="AgiluxHomeContainer">
                 <div style={{ overflow: "hidden", width: "100%" }}>
-                    <video src={BackVideo} loop autoPlay muted></video>
+                    <div className={`video-container ${isFading ? 'fade-out' : 'fade-in'}`}>
+                        <video
+                            ref={videoRef}
+                            src={BackVideo}
+                            loop={false} // We control the loop manually
+                            autoPlay
+                            muted
+                            onTimeUpdate={handleTimeUpdate}
+                            onEnded={handleVideoEnd}
+                            style={{ width: '100%', height: 'auto' }}
+                        />
+                    </div>
                     <div className="BlackOverlay">
 
                     </div>
@@ -83,7 +120,7 @@ const AgiluxHome = () => {
 
                                 </Swiper>
                                 <div className="ContactUsbtn">
-                                    <a href=""><p>Contact&nbsp;us</p><FaArrowRightLong /></a>
+                                    <a href="tel:9558653846"><p>Contact&nbsp;us</p><FaArrowRightLong /></a>
                                 </div>
                             </div>
                         </div>
@@ -93,7 +130,7 @@ const AgiluxHome = () => {
             <AgiluxMV />
             <AgiluxServices />
             <AgiluxWhyUs />
-            <AgiluxProcess/>
+            <AgiluxProcess />
             {/* <Expertise /> */}
         </>
     )

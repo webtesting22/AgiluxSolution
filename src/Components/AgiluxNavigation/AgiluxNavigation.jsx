@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./AgiluxNavigation.css";
 import { Button, Drawer, Collapse } from 'antd';
-
+import { Link } from "react-router-dom";
 const AgiluxNavigation = () => {
     const [open, setOpen] = useState(false);
     const [childrenDrawer, setChildrenDrawer] = useState(false);
@@ -45,21 +45,87 @@ const AgiluxNavigation = () => {
             children:
                 <>
                     <div className="NavigationChildLinks">
-                        <p onClick={() => showChildrenDrawer("App Development")}>App Development</p>
-                        <p onClick={() => showChildrenDrawer("Web Development")}>Web Development</p>
-                        <p onClick={() => showChildrenDrawer("Graphic Designing")}>Graphic Designing</p>
-                        <p onClick={() => showChildrenDrawer("QA Automatic Testing")}>QA Automatic Testing</p>
-                        <p onClick={() => showChildrenDrawer("SEO Services")}>Search Engine Optimization (SEO)</p>
+                        <p style={{ height: "100%" }} onClick={() => showChildrenDrawer(
+                            <>
+                                <div className="ChildDrawerContent">
+                                    <p>/ UI/UX Design</p>
+                                    <p>/ Frontend Development</p>
+                                    <p>/ Backend Development & API Integration</p>
+                                    <p>/ Testing and Quality Assurance</p>
+                                    <p>/ Deployment and Submission</p>
+                                    <p>/ Post-Launch Support & Maintenance</p>
+                                </div>
+                            </>
+                        )}>
+                            App Development
+                        </p>
+                        <p onClick={() => showChildrenDrawer(
+                            <>
+                                <div className="ChildDrawerContent">
+                                    <p>/ UI/UX Design</p>
+                                    <p>/ Frontend Development</p>
+                                    <p>/ Backend Development</p>
+                                    <p>/ Content Management System (CMS)</p>
+                                    <p>/ Testing & Quality Assurence</p>
+                                    <p>/ Post-Launch Support & Maintence</p>
+                                </div>
+                            </>
+                        )}>Web Development</p>
+                        <p onClick={() => showChildrenDrawer(
+                            <>
+                                <div className="ChildDrawerContent">
+                                    <p>/ Concept Development & Ideation</p>
+                                    <p>/ Design Exicution</p>
+                                    <p>/ Revisions and Final Adjustment</p>
+                                    <p>/ File Preparation and Delivery</p>
+                                    <p>/ Client Handoff and Support</p>
+                                </div>
+                            </>
+                        )}>Graphic Designing</p>
+                        <p onClick={() => showChildrenDrawer(
+                            <>
+                                <div className="ChildDrawerContent">
+                                    <p>/ Test Enviroment Setup</p>
+                                    <p>/ Unit Testing Automation</p>
+                                    <p>/ Intregation Testing Automation</p>
+                                    <p>/ Perfomance Testing Automation</p>
+                                    <p>/ Test Report and Documentation</p>
+                                </div>
+                            </>
+                        )}>QA Automatic Testing</p>
+                        <p onClick={() => showChildrenDrawer(
+                            <>
+                                <div className="ChildDrawerContent">
+                                    <p>/ SEO Audit & Analysis</p>
+                                    <p>/ Technical SEO Optimization</p>
+                                    <p>/ On-Page SEO Optimization</p>
+                                    <p>/ Content Strategy & Creation</p>
+                                    <p>/ Off-Page SEO & Link Building</p>
+                                    <p>/ Ongoing SEO Monitoring & Reporting</p>
+                                </div>
+                            </>
+                        )}>Search Engine Optimization (SEO)</p>
                     </div>
                 </>,
         },
         {
             key: '2',
+            label: 'Projects',
+            children:
+                <>
+                    <div className="NavigationChildLinks">
+                        <Link to="/appdevelopment"><p>App Development</p></Link>
+                        <p>Web Development</p>
+                    </div>
+                </>,
+        },
+        {
+            key: '3',
             label: 'Industries',
             children: <p>Industry Content</p>,
         },
         {
-            key: '3',
+            key: '4',
             label: 'More Info',
             children: <p>More Information Content</p>,
         },

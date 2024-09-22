@@ -96,11 +96,25 @@
     transition: .5s;
     /* Move the item up by 20px */
 }
-.NavigationChildLinks p{
+
+.NavigationChildLinks p {
     transition: .5s;
 }
 
-@media (max-width:768px){
+.ChildDrawerContent p {
+    margin: 20px 0px;
+}
+
+.ChildDrawerContent {
+    margin-top: 5rem;
+    height: 100%;
+}
+
+.ProjectsLinks p {
+    margin: 10px 0px;
+}
+
+@media (max-width:768px) {
     .AgiluxLogoAnimated {
         display: flex;
         justify-content: space-between;

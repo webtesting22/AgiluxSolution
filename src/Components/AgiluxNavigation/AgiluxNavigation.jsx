@@ -129,6 +129,10 @@ const AgiluxNavigation = () => {
             label: 'More Info',
             children: <p>More Information Content</p>,
         },
+        {
+            key: '5',
+            label: <><Link to="/agiluxaboutus" onClick={onClose}>About Us</Link></>,
+        },
     ];
 
     return (

@@ -23,7 +23,7 @@ const WebDevelopment = () => {
                     <div className="TopContainer">
                         <div>
                             <h4>/ Web Development</h4>
-                            <div style={{ display: "flex", justifyContent: "space-Between", padding: "2rem 0rem" }}>
+                            <div style={{ display: "flex", justifyContent: "space-Between"}}>
                                 <h2>Web Solutions</h2>
                             </div>
                         </div>

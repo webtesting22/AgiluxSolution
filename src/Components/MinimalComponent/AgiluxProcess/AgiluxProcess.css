@@ -1,6 +1,6 @@
 .AgiluxProcessContainer {
-    
-    position: absolute;
+
+    position: sticky;
     right: 0px;
     left: 0px;
     width: 100%;
@@ -8,7 +8,8 @@
     justify-content: center;
     /* top: 0px; */
 }
-.anothercontainer{
+
+.anothercontainer {
     width: 80%;
 }
 
@@ -42,17 +43,21 @@
 .AgiluxProcessContainer .mySwiper {
     width: 100%;
 }
-.SwiperContentContainer h3{
+
+.SwiperContentContainer h3 {
     font-size: 30px;
 }
-.SwiperContentContainer{
+
+.SwiperContentContainer {
     width: 70%;
 }
-@media (max-width:769px){
-    .anothercontainer{
+
+@media (max-width:769px) {
+    .anothercontainer {
         width: 100%;
     }
-    .SwiperContentContainer{
+
+    .SwiperContentContainer {
         width: 100%;
     }
 }

@@ -9,7 +9,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 // import required modules
-import { Navigation, Pagination,Autoplay } from 'swiper/modules';
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 const AgiluxProcess = () => {
 
@@ -40,38 +40,41 @@ const AgiluxProcess = () => {
             <section>
 
                 <div className="BackOverlayImage">
-                    <img src={Background} alt="" />
-                    <div className="BlackOverlay">
 
-                    </div>
                     <div className="AgiluxProcessContainer">
+                        <img src={Background} alt="" />
+                        <div className="BlackOverlay">
+
+                        </div>
                         <div className="anothercontainer">
-                            <h4>/ Our Process</h4>
-                            {/* <div style={{ display: "flex", justifyContent: "space-Between", padding: "2rem 0rem" }}>
+                            <div style={{ width: "100%" }}>
+                                <h4>/ Our Process</h4>
+                                {/* <div style={{ display: "flex", justifyContent: "space-Between", padding: "2rem 0rem" }}>
                                 <h2>Leading with Purpose</h2>
                             </div> */}
-                            <Swiper
-                                spaceBetween={30}
-                                loop={true}
-                                autoplay={{
-                                    delay: 2000,
-                                    disableOnInteraction: false,
-                                  }}
-                                  effect="fade" 
-                                  speed={900}
-                                  modules={[Autoplay]}
-                                className="mySwiper"
-                            >
-                                {ProcessContent.map((item, index) => (
-                                    <SwiperSlide key={index}>
-                                        <div className="SwiperContentContainer">
-                                            <h3>{item.title}</h3>
-                                            <p>{item.description}</p>
-                                        </div>
-                                    </SwiperSlide>
-                                ))}
+                                <Swiper
+                                    spaceBetween={30}
+                                    loop={true}
+                                    autoplay={{
+                                        delay: 2000,
+                                        disableOnInteraction: false,
+                                    }}
+                                    effect="fade"
+                                    speed={900}
+                                    modules={[Autoplay]}
+                                    className="mySwiper"
+                                >
+                                    {ProcessContent.map((item, index) => (
+                                        <SwiperSlide key={index}>
+                                            <div className="SwiperContentContainer">
+                                                <h3>{item.title}</h3>
+                                                <p>{item.description}</p>
+                                            </div>
+                                        </SwiperSlide>
+                                    ))}
 
-                            </Swiper>
+                                </Swiper>
+                            </div>
                         </div>
                     </div>
                 </div>

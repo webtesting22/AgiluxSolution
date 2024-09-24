@@ -1,6 +1,6 @@
 import React from "react";
 import "./AppDevelopmentProjectContainer.css"
-
+import AppDev from "./AppDev.avif"
 const AppDevelopment = () => {
 
     const AppDevelopmentProjetsData = [
@@ -34,12 +34,16 @@ const AppDevelopment = () => {
             <section>
                 <div className="AppDevelopmentProjectContainer">
                     <div className="TopContainer">
+
                         <div>
                             <h4>/ App Development</h4>
-                            <div style={{ display: "flex", justifyContent: "space-Between", padding: "2rem 0rem" }}>
+                            <div style={{ display: "flex", justifyContent: "space-Between", }}>
                                 <h2>App Innovation</h2>
                             </div>
                         </div>
+                        {/* <div className="ImageDesignCrop">
+                            <img src={AppDev} alt="" />
+                        </div> */}
                     </div>
                     <div className="CardContinerPadding">
                         <div className="ProjectsCards">

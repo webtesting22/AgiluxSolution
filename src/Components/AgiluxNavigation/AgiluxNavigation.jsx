@@ -54,6 +54,7 @@ const AgiluxNavigation = () => {
                                     <p>/ Testing and Quality Assurance</p>
                                     <p>/ Deployment and Submission</p>
                                     <p>/ Post-Launch Support & Maintenance</p>
+
                                 </div>
                             </>
                         )}>
@@ -66,8 +67,9 @@ const AgiluxNavigation = () => {
                                     <p>/ Frontend Development</p>
                                     <p>/ Backend Development</p>
                                     <p>/ Content Management System (CMS)</p>
-                                    <p>/ Testing & Quality Assurence</p>
-                                    <p>/ Post-Launch Support & Maintence</p>
+                                    <p>/ Testing & Quality Assurance</p>
+                                    <p>/ Post-Launch Support & Maintenance</p>
+
                                 </div>
                             </>
                         )}>Web Development</p>
@@ -75,21 +77,23 @@ const AgiluxNavigation = () => {
                             <>
                                 <div className="ChildDrawerContent">
                                     <p>/ Concept Development & Ideation</p>
-                                    <p>/ Design Exicution</p>
-                                    <p>/ Revisions and Final Adjustment</p>
+                                    <p>/ Design Execution</p>
+                                    <p>/ Revisions and Final Adjustments</p>
                                     <p>/ File Preparation and Delivery</p>
                                     <p>/ Client Handoff and Support</p>
+
                                 </div>
                             </>
                         )}>Graphic Designing</p>
                         <p onClick={() => showChildrenDrawer(
                             <>
                                 <div className="ChildDrawerContent">
-                                    <p>/ Test Enviroment Setup</p>
+                                    <p>/ Test Environment Setup</p>
                                     <p>/ Unit Testing Automation</p>
-                                    <p>/ Intregation Testing Automation</p>
-                                    <p>/ Perfomance Testing Automation</p>
+                                    <p>/ Integration Testing Automation</p>
+                                    <p>/ Performance Testing Automation</p>
                                     <p>/ Test Report and Documentation</p>
+
                                 </div>
                             </>
                         )}>QA Automatic Testing</p>
@@ -102,6 +106,7 @@ const AgiluxNavigation = () => {
                                     <p>/ Content Strategy & Creation</p>
                                     <p>/ Off-Page SEO & Link Building</p>
                                     <p>/ Ongoing SEO Monitoring & Reporting</p>
+
                                 </div>
                             </>
                         )}>Search Engine Optimization (SEO)</p>
@@ -119,18 +124,18 @@ const AgiluxNavigation = () => {
                     </div>
                 </>,
         },
+        // {
+        //     key: '3',
+        //     label: 'Industries',
+        //     children: <p>Industry Content</p>,
+        // },
+        // {
+        //     key: '4',
+        //     label: 'More Info',
+        //     children: <p>More Information Content</p>,
+        // },
         {
             key: '3',
-            label: 'Industries',
-            children: <p>Industry Content</p>,
-        },
-        {
-            key: '4',
-            label: 'More Info',
-            children: <p>More Information Content</p>,
-        },
-        {
-            key: '5',
             label: <><Link to="/agiluxaboutus" onClick={onClose}>About Us</Link></>,
         },
     ];

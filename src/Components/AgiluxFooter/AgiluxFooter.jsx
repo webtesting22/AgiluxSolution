@@ -8,7 +8,7 @@ const AgiluxFooter = () => {
             <section className="Footer">
                 <div className="FooterContainer">
                     <div className="EmailContainer">
-                        <h2>If you wanna stand out, gotta be outstanding. Our designers and development rockstars are here to make your digital dreams pop.</h2>
+                        <h2>Elevate your digital presence with our team of expert designers and developers. We specialize in crafting innovative, user-centric solutions that bring your digital vision to life. Let us help you stand out with exceptional design and development that exceeds expectations.</h2>
                         <br />
                         <div className="EmailAnimation">
                             <h4>contact@agilux.com</h4>

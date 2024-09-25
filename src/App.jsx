@@ -5,6 +5,7 @@ import AgiluxNavigation from './Components/AgiluxNavigation/AgiluxNavigation';
 import AppDevelopment from './Components/MinimalComponent/AppDevelopmentProjects/AppDevelopment';
 import WebDevelopment from './Components/MinimalComponent/WebDevelopmentProjects/WebDevelopment';
 import AgiluxAboutUs from './Components/AgiluxAboutUs/AgiluxAboutUs';
+import AgiluxFooter from './Components/AgiluxFooter/AgiluxFooter';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route exact path="/appdevelopment" element={<AppDevelopment />} />
         <Route exact path="/webdevelopment" element={<WebDevelopment />} />
       </Routes>
+      <AgiluxFooter/>
     </Router>
   );
 }

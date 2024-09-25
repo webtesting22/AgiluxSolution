@@ -47,7 +47,7 @@ const AgiluxProcess = () => {
 
                         </div>
                         <div className="anothercontainer">
-                            <div style={{ width: "100%" }}>
+                            <div style={{ width: "100%",padding:"0px 20px" }}>
                                 <h4>/ Our Process</h4>
                                 {/* <div style={{ display: "flex", justifyContent: "space-Between", padding: "2rem 0rem" }}>
                                 <h2>Leading with Purpose</h2>

@@ -85,10 +85,10 @@ const AgiluxHome = () => {
                 <div style={{ overflow: "hidden", width: "100%" }}>
                     <div className={`video-container ${isFading ? 'fade-out' : 'fade-in'}`}>
                         <video
-                        id="PcONly"
+                            id="PcONly"
                             ref={videoRef}
                             src={BackVideo}
-                            loop={false} // We control the loop manually
+                            loop={true} // We control the loop manually
                             autoPlay
                             muted
                             onTimeUpdate={handleTimeUpdate}
@@ -96,10 +96,10 @@ const AgiluxHome = () => {
                             style={{ width: '100%', height: 'auto' }}
                         />
                         <video
-                        id="Mobileonly"
+                            id="Mobileonly"
                             ref={videoRef}
                             src={Mobilescreen}
-                            loop={false} // We control the loop manually
+                            loop={true} // We control the loop manually
                             autoPlay
                             muted
                             onTimeUpdate={handleTimeUpdate}

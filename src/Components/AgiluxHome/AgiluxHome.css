@@ -79,14 +79,22 @@
     opacity: 0;
     transition: 1s;
 }
-
+#Mobileonly{
+    display: none;
+}
 @media (max-width:769px) {
+    #PcONly {
+        display: none;
+    }
+    #Mobileonly{
+        display: block;
+    }
 
     .AgiluxHomeContainer {
         position: relative;
         display: flex;
         justify-content: center;
-        height: 80vh;
+        height: 100vh;
     }
 
     .AgiluxHomeContentContainer .mySwiper {

@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import { ssrExportAllKey } from "vite/runtime";
 import BackVideo from "./BackGround.mp4"
+import Mobilescreen from "./Mobilescreen.mp4"
 import "./AgiluxHome.css"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { FaArrowRightLong } from "react-icons/fa6";
@@ -84,6 +85,7 @@ const AgiluxHome = () => {
                 <div style={{ overflow: "hidden", width: "100%" }}>
                     <div className={`video-container ${isFading ? 'fade-out' : 'fade-in'}`}>
                         <video
+                        id="PcONly"
                             ref={videoRef}
                             src={BackVideo}
                             loop={false} // We control the loop manually
@@ -93,6 +95,18 @@ const AgiluxHome = () => {
                             onEnded={handleVideoEnd}
                             style={{ width: '100%', height: 'auto' }}
                         />
+                        <video
+                        id="Mobileonly"
+                            ref={videoRef}
+                            src={Mobilescreen}
+                            loop={false} // We control the loop manually
+                            autoPlay
+                            muted
+                            onTimeUpdate={handleTimeUpdate}
+                            onEnded={handleVideoEnd}
+                            style={{ width: '100%', height: 'auto' }}
+                        />
+
                     </div>
                     <div className="BlackOverlay">
 

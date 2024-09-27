@@ -77,7 +77,10 @@ const AgiluxHome = () => {
 
         return () => clearInterval(interval);
     }, [headings.length]);
-
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+    
 
     return (
         <>

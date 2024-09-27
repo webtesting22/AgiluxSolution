@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "./AgiluxAboutUs.css"
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -14,7 +14,10 @@ import AboutUsBack3 from "./About3.avif"
 import { FreeMode, Pagination, Autoplay } from 'swiper/modules';
 
 const AgiluxAboutUs = () => {
-
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+    
     const AboutUsCarousalCard = [
         {
             Title: "Innovation",

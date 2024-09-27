@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./AgiluxProcess.css"
 import Background from "./Background.jpg"
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import BackgroundMobile from "./BackgroundMobile.avif"
 import 'swiper/css';
 import 'swiper/css/effect-fade';
 import 'swiper/css/navigation';
@@ -42,12 +42,13 @@ const AgiluxProcess = () => {
                 <div className="BackOverlayImage">
 
                     <div className="AgiluxProcessContainer">
-                        <img src={Background} alt="" />
+                        <img src={Background} alt="" id="PCOnly" />
+                        <img src={BackgroundMobile} id="MobileOnly" alt="" />
                         <div className="BlackOverlay">
 
                         </div>
                         <div className="anothercontainer">
-                            <div style={{ width: "100%",padding:"0px 20px" }}>
+                            <div style={{ width: "90%", padding: "0px 20px" }}>
                                 <h4>/ Our Process</h4>
                                 {/* <div style={{ display: "flex", justifyContent: "space-Between", padding: "2rem 0rem" }}>
                                 <h2>Leading with Purpose</h2>

@@ -22,9 +22,10 @@ const AgiluxFooter = () => {
                         </div>
                         <div className="SocialLinks">
                             <ul>
-                                <li>Instagram </li>
-                                <li>FaceBook </li>
-                                <li>Whatsapp </li>
+                                <Link to="https://www.instagram.com/agiluxsolution/" target="_blank"><li>Instagram </li></Link>
+                                {/* <li>FaceBook </li>
+                                <li>Whatsapp </li> */}
+                                <Link to="https://x.com/AgiluxSolution" target="_blank"><li>Twitter</li></Link>
                             </ul>
                         </div>
                     </div>

@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 
 const WebDevelopment = () => {
     const WebDevelopmentProjetsData = [
@@ -16,6 +16,9 @@ const WebDevelopment = () => {
         },
        
     ]
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return (
         <>
             <section>

@@ -1,8 +1,10 @@
-import React from "react";
+import React ,{useEffect} from "react";
 import "./AppDevelopmentProjectContainer.css"
 import AppDev from "./AppDev.avif"
 const AppDevelopment = () => {
-
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     const AppDevelopmentProjetsData = [
         {
             title: "Clotheslyne",

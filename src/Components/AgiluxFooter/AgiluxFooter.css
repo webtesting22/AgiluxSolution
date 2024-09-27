@@ -17,7 +17,7 @@
 }
 
 .EmailAnimation {
-    width: 150px;
+    width: 195px;
     border-bottom: 1px solid rgb(81, 81, 81);
     position: relative;
     padding-bottom: 5px;
@@ -28,7 +28,7 @@
     margin: 0px;
     position: absolute;
     bottom: 0px;
-    width: 20px;
+    width: 30px;
     transition: .5s;
 
 }
@@ -37,7 +37,7 @@
     margin: 0px;
     position: absolute;
     bottom: 0px;
-    width: 150px;
+    width: 195px;
     transition: .5s;
 }
 

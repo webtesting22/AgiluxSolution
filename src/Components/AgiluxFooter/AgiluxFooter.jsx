@@ -11,7 +11,7 @@ const AgiluxFooter = () => {
                         <h2>Elevate your digital presence with our team of expert designers and developers. We specialize in crafting innovative, user-centric solutions that bring your digital vision to life. Let us help you stand out with exceptional design and development that exceeds expectations.</h2>
                         <br />
                         <div className="EmailAnimation">
-                            <h4>agiluxsolutions@gmail.com</h4>
+                            <Link to="mailto:agiluxsolutions@gmail.com" target="_blank"><h4>agiluxsolutions@gmail.com</h4></Link>
                             <hr />
                         </div>
                     </div>

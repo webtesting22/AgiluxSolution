@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 
 const WebDevelopment = () => {
     const WebDevelopmentProjetsData = [
@@ -14,11 +14,11 @@ const WebDevelopment = () => {
             title: "Aaryaneev",
             desctiption: "Aaryarath began its journey over 30 years ago with a modest vision, leveraging family support to fund its first major project. The success was immediate, with 100% of offerings sold and an overwhelming response that set the foundation for future ventures. With strategic planning and careful execution, Aaryarath steadily expanded its portfolio. To fuel this growth, capital was raised, and the relentless efforts of Mr. Ratilal, a key driving force, helped propel the business forward. Today, Aaryarath stands as a multi-generational brand, proudly carrying its legacy of creating iconic landmarks."
         },
-       
+
     ]
     useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);
+    }, []);
     return (
         <>
             <section>
@@ -26,7 +26,7 @@ const WebDevelopment = () => {
                     <div className="TopContainer">
                         <div>
                             <h4>/ Web Development</h4>
-                            <div style={{ display: "flex", justifyContent: "space-Between"}}>
+                            <div style={{ display: "flex", justifyContent: "space-Between" }}>
                                 <h2>Web Solutions</h2>
                             </div>
                         </div>

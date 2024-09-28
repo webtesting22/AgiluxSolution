@@ -138,6 +138,10 @@ const AgiluxNavigation = () => {
             key: '3',
             label: <><Link to="/agiluxaboutus" onClick={onClose}>About Us</Link></>,
         },
+        {
+            key: '4',
+            label: <><Link to="/agiluxblog" onClick={onClose}>Blogs</Link></>,
+        },
     ];
 
     return (

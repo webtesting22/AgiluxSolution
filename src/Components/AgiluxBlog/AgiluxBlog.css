@@ -1,0 +1,97 @@
+.AgiluxBlogContainer {
+    min-height: 100vh;
+    background-image: url("./PCBlogImage.avif");
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* Two columns: left (main blog) and right (sidebar) */
+    gap: 20px;
+    position: sticky;
+    padding: 10rem 8rem;
+    padding-bottom: 0rem !important;
+}
+
+.BlackOverlay {
+    background-color: rgba(0, 0, 0, 0.82);
+    height: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.BlogContentContainer {
+    position: sticky;
+
+    padding: 10rem;
+}
+
+
+/* Main blog column styling */
+.BlogMainColumn {
+    padding: 20px;
+    position: sticky;
+    border-radius: 8px;
+}
+
+/* Sidebar column styling */
+.BlogSidebarColumn {
+    /* padding: 20px; */
+    position: sticky;
+    border-radius: 8px;
+}
+
+.BlogSidebarGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+/* Individual blog items in the sidebar */
+.BlogSidebarItem {
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+
+
+.BlogSidebarItem h4 {
+    margin: 0;
+}
+
+.BlogSidebarItem p {
+    margin-top: 5px;
+}
+
+.BlogSidebarItem img {
+    border-radius: 10px;
+}
+.BlogMainColumn div p{
+    margin-bottom: 20px;
+}
+@media (max-width:900px) {
+    .BlogMainColumn {
+        padding: 5px;
+        position: sticky;
+        border-radius: 8px;
+    }
+    
+    .AgiluxBlogContainer {
+        min-height: 100vh;
+        background-image: url("./Blogback.avif");
+        background-size: cover;
+        background-attachment: fixed;
+        gap: 20px;
+        position: sticky;
+        padding: 10rem 1rem;
+        padding-bottom: 0rem !important;
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

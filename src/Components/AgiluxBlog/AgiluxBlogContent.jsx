@@ -92,7 +92,7 @@ const AgiluxBlogs = [
     },
     {
         id: 3,
-        image:SEORank,
+        image: SEORank,
         title: "Why Every Business Needs a Strong SEO Strategy in 2024",
         content: (
             <>
@@ -143,7 +143,7 @@ const AgiluxBlogs = [
     },
     {
         id: 4,
-        image:WebDevelopmentTrends,
+        image: WebDevelopmentTrends,
         title: "Web Design Trends for 2024: How to Stay Ahead of the Curve",
         content: (
             <>
@@ -188,7 +188,7 @@ const AgiluxBlogs = [
     },
     {
         id: 5,
-        image:TheRoleofGraphicDesign,
+        image: TheRoleofGraphicDesign,
         title: "The Role of Graphic Design in Brand Identity: Why It Matters",
         content: (
             <>
@@ -224,7 +224,7 @@ const AgiluxBlogs = [
     },
     {
         id: 6,
-        image:CustomeWebDesigns,
+        image: CustomeWebDesigns,
         title: "Why Custom Web Development Beats Templates: A Long-Term Investment",
         content: (
             <>

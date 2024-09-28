@@ -14,11 +14,12 @@ p {
   margin: 0px;
   font-weight: 200;
   font-size: 18px;
+
 }
 
 a {
   text-decoration: none;
-  color: white ;
+  color: white;
 }
 
 h1,
@@ -29,7 +30,7 @@ h5,
 h6 {
   font-family: 'Graphik Trial', sans-serif;
   font-weight: 200;
-  color: white ;
+  color: white;
 }
 
 span {
@@ -69,6 +70,6 @@ span {
   padding: 0px 20px !important;
 }
 
-section{
+section {
   padding: 2rem 0rem;
 }

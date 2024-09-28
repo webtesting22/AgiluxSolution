@@ -20,13 +20,13 @@ const AgiluxBlog = () => {
           <div className="BlackOverlay"></div>
           <div className="BlogMainColumn">
             <img src={currentBlog.image} style={{ width: "100%", borderRadius: "10px" }} alt={currentBlog.title} />
-            <h2>{currentBlog.title}</h2>
+            <h2><b>{currentBlog.title}</b></h2>
             <div>{currentBlog.content}</div>
           </div>
 
           {/* Sidebar with other blogs */}
           <div className="BlogSidebarColumn">
-            <h4>Other Blogs</h4>
+            <h4>/ Explore Blogs</h4>
             <div className="BlogSidebarGrid">
               {AgiluxBlogs.filter((blog) => blog.id !== currentBlog.id).map((blog) => (
                 <div
@@ -35,8 +35,8 @@ const AgiluxBlog = () => {
                   onClick={() => handleBlogClick(blog)}
                 >
                   <img src={blog.image} style={{ width: "100%" }} alt={blog.title} />
-                  <h4>{blog.title}</h4>
-                  <p>{blog.content.props.children[0].props.children.slice(0, 60)}...</p>
+                  <h4><b>{blog.title}</b></h4>
+                  {/* <p>{blog.content.props.children[0].props.children.slice(0, 60)}...</p> */}
                 </div>
               ))}
             </div>

@@ -81,7 +81,6 @@ const AgiluxNavigation = () => {
                                     <p>/ Revisions and Final Adjustments</p>
                                     <p>/ File Preparation and Delivery</p>
                                     <p>/ Client Handoff and Support</p>
-
                                 </div>
                             </>
                         )}>Graphic Designing</p>

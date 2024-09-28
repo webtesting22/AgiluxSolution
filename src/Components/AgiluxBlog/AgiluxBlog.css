@@ -74,6 +74,9 @@
 .BlogMainColumn div p{
     margin-bottom: 20px;
 }
+.AgiluxBlogContainer b{
+    font-weight: 500 !important;
+}
 @media (max-width:900px) {
     .BlogMainColumn {
         padding: 5px;

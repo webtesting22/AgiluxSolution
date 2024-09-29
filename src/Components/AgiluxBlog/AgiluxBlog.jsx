@@ -26,8 +26,9 @@ const AgiluxBlog = () => {
 
           {/* Sidebar with other blogs */}
           <div className="BlogSidebarColumn">
-            <h4>/ Explore Blogs</h4>
+            
             <div className="BlogSidebarGrid">
+            <h4>/ Explore Blogs</h4>
               {AgiluxBlogs.filter((blog) => blog.id !== currentBlog.id).map((blog) => (
                 <div
                   key={blog.id}

@@ -42,11 +42,12 @@
     position: sticky;
     border-radius: 8px;
 }
-
 .BlogSidebarGrid {
     display: grid;
     grid-template-columns: 1fr;
     gap: 10px;
+    position: sticky;
+    top: 10%;
 }
 
 /* Individual blog items in the sidebar */
@@ -78,6 +79,14 @@
     font-weight: 500 !important;
 }
 @media (max-width:900px) {
+    .BlogSidebarGrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        position: static;
+        /* top: 10%; */
+    }
+    
     .BlogMainColumn {
         padding: 5px;
         position: sticky;

@@ -58,7 +58,8 @@ const AgiluxNavigation = () => {
                                 </div>
                             </>
                         )}>
-                            App Development
+                            <span>App Development <hr /></span>
+
                         </p>
                         <p onClick={() => showChildrenDrawer(
                             <>
@@ -72,7 +73,7 @@ const AgiluxNavigation = () => {
 
                                 </div>
                             </>
-                        )}>Web Development</p>
+                        )}><span>Web Development <hr /></span></p>
                         <p onClick={() => showChildrenDrawer(
                             <>
                                 <div className="ChildDrawerContent">
@@ -83,7 +84,7 @@ const AgiluxNavigation = () => {
                                     <p>/ Client Handoff and Support</p>
                                 </div>
                             </>
-                        )}>Graphic Designing</p>
+                        )}><span>Graphic Designing<hr /></span></p>
                         <p onClick={() => showChildrenDrawer(
                             <>
                                 <div className="ChildDrawerContent">
@@ -95,7 +96,7 @@ const AgiluxNavigation = () => {
 
                                 </div>
                             </>
-                        )}>QA Automatic Testing</p>
+                        )}><span>QA Automatic Testing<hr /></span></p>
                         <p onClick={() => showChildrenDrawer(
                             <>
                                 <div className="ChildDrawerContent">
@@ -108,7 +109,7 @@ const AgiluxNavigation = () => {
 
                                 </div>
                             </>
-                        )}>Search Engine Optimization (SEO)</p>
+                        )}><span>Search Engine Optimization (SEO)<hr /></span></p>
                     </div>
                 </>,
         },
@@ -118,8 +119,8 @@ const AgiluxNavigation = () => {
             children:
                 <>
                     <div className="NavigationChildLinks">
-                        <Link to="/appdevelopment"><p onClick={onClose}>App Development</p></Link>
-                        <Link to="/webdevelopment"><p onClick={onClose}>Web Development</p></Link>
+                        <Link to="/appdevelopment"><p onClick={onClose}><span>App Development<hr /></span></p></Link>
+                        <Link to="/webdevelopment"><p onClick={onClose}><span>Web Development<hr /></span></p></Link>
                     </div>
                 </>,
         },

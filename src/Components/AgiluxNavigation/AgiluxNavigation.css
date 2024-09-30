@@ -64,6 +64,28 @@
 .NavigationChildLinks p {
     margin: 10px 0px;
     cursor: pointer;
+    transition: .5s;
+    color: white;
+}
+.NavigationChildLinks p hr{
+    border: 0.5px solid white;
+    opacity: 1;
+    width: 5%;
+    margin: 0px;
+    transition: .5s;
+}
+
+.NavigationChildLinks p:hover hr{
+    border: 0.5px solid white;
+    opacity: 1;
+    width: 20%;
+    margin: 0px;
+    transition: .5s;
+}
+
+.NavigationChildLinks p span {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.316);
+    padding: 5px 0px;
 }
 
 .ant-drawer-body button {
@@ -91,11 +113,6 @@
 }
 
 
-.NavigationChildLinks p:hover {
-    transform: translatex(8px);
-    transition: .5s;
-    /* Move the item up by 20px */
-}
 
 .NavigationChildLinks p {
     transition: .5s;
@@ -103,7 +120,16 @@
 
 .ChildDrawerContent p {
     margin: 20px 0px;
+    transform: translatex(0px);
+    transition: .5s;
 }
+.ChildDrawerContent p:hover {
+    margin: 20px 0px;
+    transform: translatex(10px);
+    transition: .5s;
+    cursor: pointer;
+}
+
 
 .ChildDrawerContent {
     margin-top: 5rem;

@@ -1,6 +1,9 @@
 import React ,{useEffect} from "react";
 import "./AppDevelopmentProjectContainer.css"
 import AppDev from "./AppDev.avif"
+import Clotheslyne from "./Clotheslyne.webp"
+import Expoleads from "./Expoleads.png"
+import CrossFit from "./CrossFit.png"
 const AppDevelopment = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -8,14 +11,17 @@ const AppDevelopment = () => {
     const AppDevelopmentProjetsData = [
         {
             title: "Clotheslyne",
+            image:Clotheslyne,
             desctiption: "Say goodbye to laundry day hassles with Clotheslyne, the ultimate laundry service app for busy individuals and businesses. Easily book laundry services, schedule convenient pick-up and drop-off times, and enjoy the ease of online payments—all from your phone. Whether you need a quick wash or full-service care, Clotheslyne ensures your clothes are returned fresh and clean. Designed for both users and laundry service owners, our app makes laundry management simple, efficient, and stress-free."
         },
         {
             title: "Expoleads",
+            image:Expoleads,
             desctiption: "Expo Lead Connect is a dynamic mobile app revolutionizing event networking and lead management. Traditional business card exchanges with its QR Scanner, effortlessly capturing and organizing data on Name, Email, Address, Phone, and Services. Utilizing OCR Reader technology, the app seamlessly integrates with Firebase to enhance contact management, allowing users to export contact lists to CSV and easily save contacts to their phone book."
         },
         {
             title: "Crossfit",
+            image:CrossFit,
             desctiption: "Unlock your full fitness potential with CROSSFIT, the ultimate app for gym members and trainers alike. Exclusively designed for trainers to manage their clients, CROSSFIT allows trainers to easily add members, schedule personalized fitness classes, and create tailored diet plans. Members can effortlessly track their workouts, view their class schedules, and access a library of fitness videos, including Zumba and other popular routines. Additionally, the app offers a convenient marketplace for purchasing fitness products like protein powder and supplements, ensuring all your fitness needs are met in one place."
         },
         // {
@@ -55,7 +61,7 @@ const AppDevelopment = () => {
                                     data-aos-duration="1000"
                                     data-aos-delay={`${index * 100}`}>
                                     <div className="ProjectimageContiner">
-
+                                        <img src={item.image} alt="" style={{width:"100%"}}/>
                                     </div>
                                     <p>/ {item.title}</p>
                                     <br />

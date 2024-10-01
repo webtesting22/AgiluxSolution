@@ -1,6 +1,5 @@
 import React ,{useEffect} from "react";
 import "./AppDevelopmentProjectContainer.css"
-import AppDev from "./AppDev.avif"
 import Clotheslyne from "./Clotheslyne.webp"
 import Expoleads from "./Expoleads.png"
 import CrossFit from "./CrossFit.png"

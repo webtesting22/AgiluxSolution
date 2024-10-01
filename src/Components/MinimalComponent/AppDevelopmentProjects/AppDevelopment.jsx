@@ -4,6 +4,8 @@ import AppDev from "./AppDev.avif"
 import Clotheslyne from "./Clotheslyne.webp"
 import Expoleads from "./Expoleads.png"
 import CrossFit from "./CrossFit.png"
+import AMCmaster from "./AMCmaster.png"
+import BakeryShop from "./BakeryShop.jpeg"
 const AppDevelopment = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -30,10 +32,12 @@ const AppDevelopment = () => {
         // },
         {
             title: "AMC Master",
+            image:AMCmaster,
             desctiption: "Annual Maintenance Contract is a contract or project management app. Users can analyze their contract amount with all estimation of employees, raw material and supplier amount with charts and graphs."
         },
         {
             title: "Bakery Shop",
+            image:BakeryShop,
             desctiption: "Bakery Shop is the perfect app for both bakery owners and customers. As an owner, easily manage your orders with a clear view of pending and completed tasks, ensuring smooth operations. For customers, Bakery Shop offers a delightful browsing experience where you can select your favorite cakes and bakery items from an extensive menu. Once you've made your choices, simply complete your order with secure online payments, and enjoy your treats in no time."
         }
     ]

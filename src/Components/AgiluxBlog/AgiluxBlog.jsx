@@ -36,7 +36,9 @@ const AgiluxBlog = () => {
                   onClick={() => handleBlogClick(blog)}
                 >
                   <img src={blog.image} style={{ width: "100%" }} alt={blog.title} />
+                  <br /><br />
                   <h4><b>{blog.title}</b></h4>
+                  <span style={{fontSize:"12px"}}>/ Agilux Solutions</span>
                   {/* <p>{blog.content.props.children[0].props.children.slice(0, 60)}...</p> */}
                 </div>
               ))}

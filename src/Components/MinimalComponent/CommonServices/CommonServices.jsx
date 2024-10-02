@@ -19,7 +19,7 @@ const serviceData = {
             <br />
             <p><b>Visual Hierarchy:</b> Use visual hierarchy to guide users' attention to important information and actions. Employ size, color, and placement to highlight key elements, making it easy for users to understand the app’s flow.</p>
             <br /><br />
-            
+
             <p><b>Our UI/UX Design Tools</b></p>
             <br />
             <p><b>1. Figma</b></p>
@@ -27,13 +27,13 @@ const serviceData = {
             <p>Figma is a powerful cloud-based design tool widely used for UI/UX design. It offers collaborative features that allow teams to work together in real-time, making it ideal for remote work. Key features include:
             </p>
             <p><b>Vector Graphics Editing:</b> Create scalable graphics and design elements easily.</p>
-         
+
             <p><b>Prototyping:</b> Build interactive prototypes to simulate user flows and test functionalities.</p>
-        
+
             <p><b>Component Libraries:</b> Utilize reusable design components to maintain consistency across projects.</p>
-            
+
             <p><b>Feedback and Commenting:</b> Stakeholders can leave comments directly on the design, facilitating streamlined communication.</p>
-            <br /> 
+            <br />
             <p><b>2. Adobe XD</b></p>
             <br />
             <p>Adobe XD is another leading design tool that provides a comprehensive suite for designing and prototyping user experiences. Its features include:
@@ -47,7 +47,7 @@ const serviceData = {
             <p>Sketch is a popular vector graphics editor focused on UI/UX design for web and mobile applications. Key features include:</p>
             <p>Symbols and Shared Styles: Create reusable design elements and styles to ensure consistency.
                 Plugins and Integrations: Extend functionality with various plugins that enhance design capabilities and workflows.</p>
-                <br />
+            <br />
             <p><b>4. InVision</b></p>
             <br />
             <p>InVision is a digital product design platform that facilitates collaboration and prototyping. Its features include:</p>
@@ -69,7 +69,31 @@ const serviceData = {
     },
     'Frontend-Development': {
         title: 'Frontend Development',
-        description: 'We specialize in web development...',
+        description:
+            <>
+                <p>Our Technologies for Application Development</p>
+                <p><b>1. Java for Android Frontend Development</b></p>
+                <p>Java has long been the cornerstone of Android application development. It is a versatile, object-oriented programming language that offers robust frameworks and libraries for building dynamic user interfaces.
+                </p>
+                <p>Benefits of Using Java for Frontend Development:</p>
+                <p><b>Mature Ecosystem:</b> Java has a well-established ecosystem with extensive libraries, tools, and frameworks that simplify frontend development for Android.
+                </p>
+                <p><b>Native Android Support:</b> Since Android is built on Java, developers have direct access to Android’s native APIs, making it easy to create complex, high-performance applications.
+                </p>
+                <p><b>Stability and Security:</b> Java’s long-standing presence and continuous improvements ensure that it is both stable and secure for building scalable applications.
+                </p>
+                <p><b>2. Kotlin for Modern Android Frontend Development</b></p>
+                <p>Kotlin has quickly become the preferred language for Android development, offering a modern, more concise alternative to Java. Google officially announced Kotlin as the preferred language for Android development, making it a go-to choice for developers looking to build robust, efficient frontends.</p>
+                <p><b>Benefits of Using Kotlin:</b></p>
+                <p><b>Concise Syntax:</b> Kotlin’s syntax is more concise than Java, reducing the amount of boilerplate code and speeding up development time.
+                </p>
+                <p><b>Interoperability with Java:</b> Kotlin is fully interoperable with Java, meaning that developers can use both languages within the same project, making it easier to integrate legacy Java code.
+                </p>
+                <p><b>Null Safety:</b> Kotlin’s type system is designed to eliminate null pointer exceptions, a common source of bugs in Android apps.
+                </p>
+                <p><b>Coroutines for Asynchronous Programming:</b> Kotlin’s support for coroutines makes it easier to handle asynchronous tasks, which is crucial for responsive UI development.
+                </p>
+            </>,
     },
     'Backend-Development': {
         title: 'Backend Development',
@@ -106,7 +130,7 @@ const CommonServices = () => {
                 </div>
             </div>
             <div className='DescriptionContainer'>
-            <p>{currentService.description}</p>
+                <p>{currentService.description}</p>
             </div>
         </section>
     );

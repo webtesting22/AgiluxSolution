@@ -48,8 +48,21 @@ const AgiluxNavigation = () => {
                         <p style={{ height: "100%" }} onClick={() => showChildrenDrawer(
                             <>
                                 <div className="ChildDrawerContent">
-                                    <p>/ UI/UX Design</p>
-                                    <p>/ Frontend Development</p>
+                                    <Link to="/services/UIUX"
+                                        onClick={() => {
+                                            onClose();
+                                            onChildrenDrawerClose();
+                                        }}
+                                    >
+                                        <p>/ UI/UX Design</p>
+                                    </Link>
+                                    <Link to="/services/Frontend-Development"
+                                        onClick={() => {
+                                            onClose();
+                                            onChildrenDrawerClose();
+                                        }}>
+                                        <p>/ Frontend Development</p>
+                                    </Link>
                                     <p>/ Backend Development & API Integration</p>
                                     <p>/ Testing and Quality Assurance</p>
                                     <p>/ Deployment and Submission</p>

@@ -64,14 +64,51 @@ const AgiluxNavigation = () => {
                         <p onClick={() => showChildrenDrawer(
                             <>
                                 <div className="ChildDrawerContent">
-                                    <p>/ UI/UX Design</p>
-                                    <p>/ Frontend Development</p>
-                                    <p>/ Backend Development</p>
-                                    <p>/ Content Management System (CMS)</p>
-                                    <p>/ Testing & Quality Assurance</p>
-                                    <p>/ Post-Launch Support & Maintenance</p>
+                                    <Link to="/services/UIUX"
+                                        onClick={() => {
+                                            onClose();
+                                            onChildrenDrawerClose();
+                                        }}
+                                    >
+                                        <p>/ UI/UX Design</p>
+                                    </Link>
+                                    <Link to="/services/Frontend-Development"
+                                        onClick={() => {
+                                            onClose();
+                                            onChildrenDrawerClose();
+                                        }}>
+                                        <p>/ Frontend Development</p>
+                                    </Link>
+                                    <Link to="/services/Backend-Development"
+                                        onClick={() => {
+                                            onClose();
+                                            onChildrenDrawerClose();
+                                        }}>
+                                        <p>/ Backend Development</p>
+                                    </Link>
+                                    <Link to="/services/Content-Management-System"
+                                        onClick={() => {
+                                            onClose();
+                                            onChildrenDrawerClose();
+                                        }}>
+                                        <p>/ Content Management System (CMS)</p>
+                                    </Link>
+                                    <Link to="/services/Testing-Quality-Assurance"
+                                        onClick={() => {
+                                            onClose();
+                                            onChildrenDrawerClose();
+                                        }}>
+                                        <p>/ Testing & Quality Assurance</p>
+                                    </Link>
+                                    <Link to="/services/Post-Launch-Support"
+                                        onClick={() => {
+                                            onClose();
+                                            onChildrenDrawerClose();
+                                        }}>
+                                        <p>/ Post-Launch Support & Maintenance</p>
+                                    </Link>
 
-                                </div>
+                                </div >
                             </>
                         )}><span>Web Development <hr /></span></p>
                         <p onClick={() => showChildrenDrawer(
@@ -110,7 +147,7 @@ const AgiluxNavigation = () => {
                                 </div>
                             </>
                         )}><span>Search Engine Optimization (SEO)<hr /></span></p>
-                    </div>
+                    </div >
                 </>,
         },
         {

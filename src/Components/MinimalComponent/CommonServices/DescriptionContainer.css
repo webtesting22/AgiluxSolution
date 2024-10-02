@@ -1,0 +1,13 @@
+.DescriptionContainer{
+    padding: 0rem 8rem;
+}
+
+.DescriptionContainer p b{
+    font-weight: 400;
+}
+
+@media (max-width:769px){
+    .DescriptionContainer{
+        padding: 0rem 1rem;
+    }
+}

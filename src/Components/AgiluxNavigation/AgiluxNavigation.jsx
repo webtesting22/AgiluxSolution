@@ -131,7 +131,7 @@ const AgiluxNavigation = () => {
                                         }}>
                                         <p>/ Content Management System (CMS)</p>
                                     </Link>
-                                    <Link to="/services/Testing-Quality-Assurance"
+                                    <Link to="/services/Testing-Quality-Assurance-web"
                                         onClick={() => {
                                             onClose();
                                             onChildrenDrawerClose();

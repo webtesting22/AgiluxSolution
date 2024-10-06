@@ -63,10 +63,34 @@ const AgiluxNavigation = () => {
                                         }}>
                                         <p>/ Frontend Development</p>
                                     </Link>
-                                    <p>/ Backend Development & API Integration</p>
-                                    <p>/ Testing and Quality Assurance</p>
-                                    <p>/ Deployment and Submission</p>
-                                    <p>/ Post-Launch Support & Maintenance</p>
+                                    <Link to="/services/Backend-Development"
+                                        onClick={() => {
+                                            onClose();
+                                            onChildrenDrawerClose();
+                                        }}>
+                                        <p>/ Backend Development & API Integration</p>
+                                    </Link>
+                                    <Link to="/services/Testing-Quality-Assurance"
+                                        onClick={() => {
+                                            onClose();
+                                            onChildrenDrawerClose();
+                                        }}>
+                                        <p>/ Testing and Quality Assurance</p>
+                                    </Link>
+                                    <Link to="/services/Deployment-and-Submission"
+                                        onClick={() => {
+                                            onClose();
+                                            onChildrenDrawerClose();
+                                        }}>
+                                        <p>/ Deployment and Submission</p>
+                                    </Link>
+                                    <Link to="/services/Post-Launch-Support"
+                                        onClick={() => {
+                                            onClose();
+                                            onChildrenDrawerClose();
+                                        }}>
+                                           <p>/ Post-Launch Support & Maintenance</p>
+                                    </Link>
 
                                 </div>
                             </>

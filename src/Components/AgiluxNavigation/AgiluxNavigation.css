@@ -60,7 +60,9 @@
 .ExploreTabs {
     cursor: pointer;
 }
-
+.ExploreTabs svg{
+        font-size: 30px;
+}
 .NavigationChildLinks p {
     margin: 10px 0px;
     cursor: pointer;

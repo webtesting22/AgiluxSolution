@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./AgiluxNavigation.css";
 import { Button, Drawer, Collapse } from 'antd';
 import { Link } from "react-router-dom";
+import { MdOutlineMenu } from "react-icons/md";
 const AgiluxNavigation = () => {
     const [open, setOpen] = useState(false);
     const [childrenDrawer, setChildrenDrawer] = useState(false);
@@ -89,7 +90,7 @@ const AgiluxNavigation = () => {
                                             onClose();
                                             onChildrenDrawerClose();
                                         }}>
-                                           <p>/ Post-Launch Support & Maintenance</p>
+                                        <p>/ Post-Launch Support & Maintenance</p>
                                     </Link>
 
                                 </div>
@@ -101,7 +102,7 @@ const AgiluxNavigation = () => {
                         <p onClick={() => showChildrenDrawer(
                             <>
                                 <div className="ChildDrawerContent">
-                                    <Link to="/services/UIUX"
+                                    <Link to="/services/UIUXWeb"
                                         onClick={() => {
                                             onClose();
                                             onChildrenDrawerClose();
@@ -109,21 +110,21 @@ const AgiluxNavigation = () => {
                                     >
                                         <p>/ UI/UX Design</p>
                                     </Link>
-                                    <Link to="/services/Frontend-Development"
+                                    <Link to="/services/Frontend-Development-Web"
                                         onClick={() => {
                                             onClose();
                                             onChildrenDrawerClose();
                                         }}>
                                         <p>/ Frontend Development</p>
                                     </Link>
-                                    <Link to="/services/Backend-Development"
+                                    <Link to="/services/Backend-Development-Web"
                                         onClick={() => {
                                             onClose();
                                             onChildrenDrawerClose();
                                         }}>
                                         <p>/ Backend Development</p>
                                     </Link>
-                                    <Link to="/services/Content-Management-System"
+                                    <Link to="/services/Our-Content-Management-Systems"
                                         onClick={() => {
                                             onClose();
                                             onChildrenDrawerClose();
@@ -224,7 +225,7 @@ const AgiluxNavigation = () => {
                 <div className="AgiluxLogoAnimated">
                     <Link to="/"><h4>Agilux</h4></Link>
                     <div className="ExploreTabs" onClick={showDrawer}>
-                        <span>menu</span>
+                        <MdOutlineMenu />
                     </div>
 
                     <Drawer

@@ -84,7 +84,7 @@
 
 .InsideFlexContainer .AnimatedHoverImage {
     position: absolute;
-    width: 300px;
+    width: 400px;
     left: 19%;
     top: -10%;
     opacity: 0;
@@ -94,7 +94,7 @@
 
 .InsideFlexContainer:hover .AnimatedHoverImage {
     position: absolute;
-    width: 300px;
+    width: 400;
     left: 19%;
     top: 4;
     opacity: 1;

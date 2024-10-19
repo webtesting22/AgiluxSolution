@@ -6,6 +6,12 @@ import FrontendDevelopment from "./FrontendDevelopment.jpg"
 import Testing from "./Testing.jpg"
 import BackendDev from "./BackendDev.jpg"
 import DeployementPublish from "./DeployementPublish.jpeg"
+import ConceptDevelopmentIdeation from "./ConceptDevelopmentIdeation.jpg"
+import PostLaunchSupport from "./Post-Launch-Support.jpg"
+import DesignExecution from "./DesignExecution.jpg"
+import FinalAdjustments from "./FinalAdjustments.jpg"
+import FilePreparationandDelivery from "./File PreparationandDelivery.jpg"
+import ClientHandoffandSupport from "./Client HandoffandSupport.jpg"
 const serviceData = {
     // App Development Services Code Start----------------------------------------------------
     'UIUX': {
@@ -799,6 +805,7 @@ const serviceData = {
     "Post-Launch-Support-Web": {
         title: "Post-Launch-Support-Web",
         description: <>
+        <img src={PostLaunchSupport} alt="" />
             <p><b>Our Components of Post-Launch Support and Maintenance</b></p>
             <ul>
                 <li><b>Regular Backups:</b> Establish a routine for backing up website data and files. Regular backups ensure that you can quickly restore your website in case of data loss or security breaches.
@@ -854,6 +861,7 @@ const serviceData = {
         title: "Concept Development & Ideation",
         description:
             <>
+            <img src={ConceptDevelopmentIdeation} alt="" />
                 <p><b>Turning Vision into Visual Reality</b></p>
                 <p>At the heart of every impactful design lies a powerful idea. Our Concept Development & Ideation process is where your brand's vision takes shape. Through a blend of creativity, strategy, and collaboration, we transform abstract ideas into compelling visual concepts that resonate with your audience.</p>
                 <p><b>Our Approach to Concept Development</b></p>
@@ -874,6 +882,7 @@ const serviceData = {
         title: "Design Execution",
         description:
             <>
+            <img src={DesignExecution} alt="" />
                 <p><b>Design Execution</b></p>
                 <p>From Concept to Creation</p>
                 <p>Once the concept is finalized, the next step is turning it into reality. Our Design Execution phase is where creativity meets precision, ensuring every design is crafted with attention to detail, consistency, and purpose. Whether it’s digital, print, or multimedia, we bring your ideas to life through flawless execution.
@@ -898,9 +907,10 @@ const serviceData = {
             </>
     },
     "Revisions-and-Final-Adjustments": {
-        title: "Design Execution",
+        title: "Revisions-and-Final-Adjustments",
         description:
             <>
+            <img src={FinalAdjustments} alt="" />
                 <p><b>Revisions and Final Adjustments</b></p>
                 <p>Perfecting Every Detail</p>
                 <p>We understand that great design is a collaborative process, and feedback is essential to achieving the perfect final product. Our Revisions and Final Adjustments phase ensures that the design not only meets but exceeds your expectations. This is where your feedback and our expertise come together to fine-tune every detail, ensuring a flawless result.
@@ -930,6 +940,7 @@ const serviceData = {
         title: "File Preparation and Delivery",
         description:
             <>
+            <img src={FilePreparationandDelivery} alt="" />
                 <p><b>File Preparation and Delivery</b></p>
                 <p>Ready for Every Platform, Every Format</p>
                 <p>At the conclusion of every project, ensuring that the final design files are meticulously prepared and delivered in the correct formats is crucial for your success. Our File Preparation and Delivery process guarantees that your designs are not only visually stunning but also ready to be implemented flawlessly, whether for print, digital use, or multimedia applications.
@@ -962,6 +973,7 @@ const serviceData = {
     "Client-Handoff-and-Support": {
         title: "Client Handoff and Support",
         description: <>
+        <img src={ClientHandoffandSupport} alt="" />
             <p><b>Client Handoff and Support</b></p>
             <p>Seamless Handoff, Ongoing Support</p>
             <p>At the end of every project, we ensure a smooth and seamless handoff, giving you everything you need to successfully implement your new designs. Our Client Handoff and Support process is designed to ensure that you feel confident using and applying the final designs, with ongoing support to address any future needs.

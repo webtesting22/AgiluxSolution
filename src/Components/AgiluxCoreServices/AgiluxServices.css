@@ -97,9 +97,12 @@
     width: 300px;
     left: 19%;
     top: 4;
-    opacity: 1;
+    opacity: 0.6;
     transition: 1s;
     border-radius: 20px;
+}
+.InsideFlexContainer:hover .AnimatedHoverImage:hover{
+    opacity: 1;
 }
 
 

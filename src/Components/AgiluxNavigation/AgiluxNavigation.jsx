@@ -152,14 +152,40 @@ const AgiluxNavigation = () => {
                         <p onClick={() => showChildrenDrawer(
                             <>
                                 <div className="ChildDrawerContent">
-                                    <p>/ Concept Development & Ideation</p>
-                                    <p>/ Design Execution</p>
-                                    <p>/ Revisions and Final Adjustments</p>
-                                    <p>/ File Preparation and Delivery</p>
-                                    <p>/ Client Handoff and Support</p>
+                                    <Link to="/services/Concept-Development-Ideation"
+                                        onClick={() => {
+                                            onClose();
+                                            onChildrenDrawerClose();
+                                        }}> <p>/ Concept Development & Ideation</p>
+                                    </Link>
+                                    <Link to="/services/Design-Execution"
+                                        onClick={() => {
+                                            onClose();
+                                            onChildrenDrawerClose();
+                                        }}> <p>/ Design Execution</p>
+                                    </Link>
+                                    <Link to="/services/Revisions-and-Final-Adjustments"
+                                        onClick={() => {
+                                            onClose();
+                                            onChildrenDrawerClose();
+                                        }}><p>/ Revisions and Final Adjustments</p>
+                                    </Link>
+                                    <Link to="/services/File-Preparation-and-Delivery"
+                                        onClick={() => {
+                                            onClose();
+                                            onChildrenDrawerClose();
+                                        }}> <p>/ File Preparation and Delivery</p>
+                                    </Link>
+                                    <Link to="/services/Client-Handoff-and-Support"
+                                        onClick={() => {
+                                            onClose();
+                                            onChildrenDrawerClose();
+                                        }}> <p>/ Client Handoff and Support</p>
+                                    </Link>
                                 </div>
                             </>
                         )}><span>Graphic Designing<hr /></span></p>
+                        <Link to="/agiluxVideoContent"><p onClick={onClose}><span>Video Editing<hr /></span></p></Link>
                         <p onClick={() => showChildrenDrawer(
                             <>
                                 <div className="ChildDrawerContent">
@@ -184,7 +210,7 @@ const AgiluxNavigation = () => {
 
                                 </div>
                             </>
-                        )}><span>Search Engine Optimization (SEO)<hr /></span></p>
+                        )}><span>Advertising and Brand Building<hr /></span></p>
                     </div >
                 </>,
         },

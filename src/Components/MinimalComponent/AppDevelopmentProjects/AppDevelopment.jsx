@@ -1,28 +1,37 @@
-import React ,{useEffect} from "react";
+import React, { useEffect } from "react";
 import "./AppDevelopmentProjectContainer.css"
 import Clotheslyne from "./Clotheslyne.webp"
 import Expoleads from "./Expoleads.png"
 import CrossFit from "./CrossFit.png"
 import AMCmaster from "./AMCmaster.png"
 import BakeryShop from "./BakeryShop.jpeg"
+import crossfitpromo from "./crossfitpromo.mp4"
+import clothslynepromo from "./clothslynepromo.mp4"
+import Exploleads from "./Exploleads.mp4"
+import BakeryShopVideo from "./BakeryShop.mp4"
+import AMCMaster from "./AMCMaster.mp4"
 const AppDevelopment = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);
+    }, []);
     const AppDevelopmentProjetsData = [
         {
             title: "Clotheslyne",
-            image:Clotheslyne,
+            video: clothslynepromo,
+            image: Clotheslyne,
+
             desctiption: "Say goodbye to laundry day hassles with Clotheslyne, the ultimate laundry service app for busy individuals and businesses. Easily book laundry services, schedule convenient pick-up and drop-off times, and enjoy the ease of online payments—all from your phone. Whether you need a quick wash or full-service care, Clotheslyne ensures your clothes are returned fresh and clean. Designed for both users and laundry service owners, our app makes laundry management simple, efficient, and stress-free."
         },
         {
             title: "Expoleads",
-            image:Expoleads,
+            image: Expoleads,
+            video:Exploleads,
             desctiption: "Expo Lead Connect is a dynamic mobile app revolutionizing event networking and lead management. Traditional business card exchanges with its QR Scanner, effortlessly capturing and organizing data on Name, Email, Address, Phone, and Services. Utilizing OCR Reader technology, the app seamlessly integrates with Firebase to enhance contact management, allowing users to export contact lists to CSV and easily save contacts to their phone book."
         },
         {
             title: "Crossfit",
-            image:CrossFit,
+            video: crossfitpromo,
+            image: CrossFit,
             desctiption: "Unlock your full fitness potential with CROSSFIT, the ultimate app for gym members and trainers alike. Exclusively designed for trainers to manage their clients, CROSSFIT allows trainers to easily add members, schedule personalized fitness classes, and create tailored diet plans. Members can effortlessly track their workouts, view their class schedules, and access a library of fitness videos, including Zumba and other popular routines. Additionally, the app offers a convenient marketplace for purchasing fitness products like protein powder and supplements, ensuring all your fitness needs are met in one place."
         },
         // {
@@ -31,12 +40,14 @@ const AppDevelopment = () => {
         // },
         {
             title: "AMC Master",
-            image:AMCmaster,
+            image: AMCmaster,
+            video:AMCMaster,
             desctiption: "Annual Maintenance Contract is a contract or project management app. Users can analyze their contract amount with all estimation of employees, raw material and supplier amount with charts and graphs."
         },
         {
             title: "Bakery Shop",
-            image:BakeryShop,
+            image: BakeryShop,
+            video:BakeryShopVideo,
             desctiption: "Bakery Shop is the perfect app for both bakery owners and customers. As an owner, easily manage your orders with a clear view of pending and completed tasks, ensuring smooth operations. For customers, Bakery Shop offers a delightful browsing experience where you can select your favorite cakes and bakery items from an extensive menu. Once you've made your choices, simply complete your order with secure online payments, and enjoy your treats in no time."
         }
     ]
@@ -63,9 +74,21 @@ const AppDevelopment = () => {
                                     data-aos="fade-up"
                                     data-aos-duration="1000"
                                     data-aos-delay={`${index * 100}`}>
-                                    <div className="ProjectimageContiner">
-                                        <img src={item.image} alt="" style={{width:"100%"}}/>
-                                    </div>
+                                    <video
+                                        id="PcOnly"
+                                        x
+                                        src={item.video}
+                                        loop={false}
+                                        autoPlay
+                                        muted
+                                        playsInline
+                                        style={{ width: '100%', height: 'auto', objectFit: 'cover', pointerEvents: 'none' }} // Ensure no interaction triggers fullscreen
+                                    />
+                                    <br />
+                                    <br />
+                                    {/* <div className="ProjectimageContiner">
+                                        <img src={item.image} alt="" style={{ width: "100%" }} />
+                                    </div> */}
                                     <p>/ {item.title}</p>
                                     <br />
                                     <p>{item.desctiption}</p>

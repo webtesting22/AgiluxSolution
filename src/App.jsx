@@ -9,7 +9,7 @@ import AgiluxFooter from './Components/AgiluxFooter/AgiluxFooter';
 import AgiluxBlog from './Components/AgiluxBlog/AgiluxBlog';
 import AppDevelopmentServices from './Components/MinimalComponent/AgiluxServicesExplain/AppDevelopementServices';
 import CommonServices from './Components/MinimalComponent/CommonServices/CommonServices';
-
+import AgiluxVideoContent from './Components/MinimalComponent/VideoTab/AgiluxVideoContent';
 function App() {
   return (
     <Router>
@@ -23,6 +23,7 @@ function App() {
         <Route exact path="/webdevelopment" element={<WebDevelopment />} />
         <Route exact path="/appdevelopmentservices" element={<AppDevelopmentServices />} />
         <Route exact path="/services/:service" element={<CommonServices />} />
+        <Route exact path="/agiluxVideoContent" element={<AgiluxVideoContent />} />
       </Routes>
       <AgiluxFooter />
     </Router>

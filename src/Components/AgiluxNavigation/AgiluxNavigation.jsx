@@ -138,7 +138,7 @@ const AgiluxNavigation = () => {
                                         }}>
                                         <p>/ Testing & Quality Assurance</p>
                                     </Link>
-                                    <Link to="/services/PPost-Launch-Support-Web"
+                                    <Link to="/services/Post-Launch-Support-Web"
                                         onClick={() => {
                                             onClose();
                                             onChildrenDrawerClose();

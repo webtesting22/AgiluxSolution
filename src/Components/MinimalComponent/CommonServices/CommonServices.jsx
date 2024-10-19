@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import "./DescriptionContainer.css"
 import UIUX from "./UIUX.jpg"
@@ -1007,6 +1007,9 @@ const CommonServices = () => {
     if (!currentService) {
         return <p>Service not found</p>;
     }
+    useEffect(() => {
+        window.scrollTo(0, 0);  // Scroll to top when service changes
+    }, [service]); 
 
     return (
         <section>

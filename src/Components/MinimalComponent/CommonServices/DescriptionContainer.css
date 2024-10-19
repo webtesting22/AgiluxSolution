@@ -11,3 +11,7 @@
         padding: 0rem 1rem;
     }
 }
+.DescriptionContainer img{
+    width: 100%;
+    margin-bottom: 2rem;
+}

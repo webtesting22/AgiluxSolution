@@ -1,11 +1,17 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import "./DescriptionContainer.css"
+import UIUX from "./UIUX.jpg"
+import FrontendDevelopment from "./FrontendDevelopment.jpg"
+import Testing from "./Testing.jpg"
+import BackendDev from "./BackendDev.jpg"
+import DeployementPublish from "./DeployementPublish.jpeg"
 const serviceData = {
     // App Development Services Code Start----------------------------------------------------
     'UIUX': {
         title: 'UI-UX Design',
         description: <>
+        <img src={UIUX} alt="" />
             <p>Effective UI/UX Design</p>
             <br />
             <p><b>User Research: </b>Conduct thorough user research to understand the target audience's needs, behaviors, and pain points. Utilize methods like surveys, interviews, and usability testing to gather valuable insights.</p>
@@ -82,6 +88,7 @@ const serviceData = {
         title: 'Frontend Development',
         description:
             <>
+            <img src={FrontendDevelopment} alt="" />
                 <p>Our Technologies for Application Development</p>
                 <br />
                 <p><b>1. Java for Android Frontend Development</b></p>
@@ -191,6 +198,7 @@ const serviceData = {
         title: 'Backend Development',
         description:
             <>
+            <img src={BackendDev} alt="" />
                 <p>Backend Development Technologies for Application Development</p>
                 <p><b>1. Node.js for Scalable and High-Performance Applications</b></p>
                 <p>Node.js is a popular JavaScript runtime that allows developers to use JavaScript for backend development. Known for its non-blocking, event-driven architecture, Node.js is ideal for building scalable, high-performance applications, especially real-time apps like chat applications or online gaming platforms.</p>
@@ -283,6 +291,7 @@ const serviceData = {
     'Testing-Quality-Assurance': {
         title: 'Testing-Quality-Assurance',
         description: <>
+        <img src={Testing} alt="" />
             <p>Manual Testing in Application Development</p>
             <p><b>Our Manual Testing:</b></p>
             <ul>
@@ -350,6 +359,7 @@ const serviceData = {
         title: 'Deployment-and-Submission',
         description:
             <>
+            <img src={DeployementPublish} alt="" />
                 <p>Best Practices for Deployment and Submission of Applications</p>
                 <ul>
                     <li><b>Automate Deployments:</b> Use CI/CD pipelines to automate the build, testing, and deployment processes, allowing for faster and more reliable updates.

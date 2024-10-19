@@ -53,6 +53,7 @@
     transition: .5s;
     position: relative;
     justify-content: space-between;
+    position: relative;
     /* align-items: center; */
 }
 
@@ -80,6 +81,27 @@
 .InsideFlexContainer>div:last-child {
     width: 50%;
 }
+
+.InsideFlexContainer .AnimatedHoverImage {
+    position: absolute;
+    width: 300px;
+    left: 19%;
+    top: -10%;
+    opacity: 0;
+    transition: 1s;
+
+}
+
+.InsideFlexContainer:hover .AnimatedHoverImage {
+    position: absolute;
+    width: 300px;
+    left: 19%;
+    top: 4;
+    opacity: 1;
+    transition: 1s;
+    border-radius: 20px;
+}
+
 
 @media (max-width:679px) {
     .AgiluxCoreServicesContainer h2 {

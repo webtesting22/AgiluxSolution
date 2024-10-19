@@ -1,16 +1,50 @@
-import React from "react";
+import React, { useState } from "react";
 import "./AgiluxServices.css"
 import GraphicDesign from "./GraphicDesign.jpeg"
+import img1 from "../MinimalComponent/AppDevelopmentProjects/AppDev.avif"
+import img2 from "../MinimalComponent/CommonServices/FrontendDevelopment.jpg"
+import img3 from "../MinimalComponent/CommonServices/TestingWeb.jpg"
 const AgiluxServices = () => {
+    const [transformValues, setTransformValues] = useState({});
 
+    // Handle mouse movement
+    const handleMouseMove = (e, index) => {
+        // Get the image container dimensions
+        const container = e.currentTarget;
+        const rect = container.getBoundingClientRect();
+
+        // Calculate the mouse's relative position inside the container
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+
+        // Set the image translation based on the mouse position
+        const moveX = (x - rect.width / 2) / 5; // Scale down for smoother movement
+        const moveY = (y - rect.height / 2) / 5;
+
+        // Update the transform values for the specific image
+        setTransformValues(prev => ({
+            ...prev,
+            [index]: `translate(${moveX}px, ${moveY}px)`,
+        }));
+    };
+
+    // Reset the image position when the mouse leaves the container
+    const handleMouseLeave = (index) => {
+        setTransformValues(prev => ({
+            ...prev,
+            [index]: `translate(0px, 0px)`,
+        }));
+    };
     const AgiluxServices = [
         {
             Title: "App Development",
+            image: img1,
             keyWord: "Mobile App Development Services",
             Description: "We build robust, scalable, and user-friendly mobile applications for iOS and Android, turning your ideas into powerful tools that drive user engagement and business growth."
         },
         {
             Title: "Web Development",
+            image:img2,
             keyWord: "Website Optimization.",
             Description: "Our web development services are designed to create high-performing, responsive, and visually appealing websites that provide seamless user experiences. From e-commerce platforms to corporate websites, we ensure your online presence is impactful and effective."
         },
@@ -31,6 +65,7 @@ const AgiluxServices = () => {
         {
             Title: "Automated Testing",
             keyWord: "Test Automation",
+            image:img3,
             Description: "We ensure the reliability and performance of your software through rigorous automated testing. By identifying bugs and improving functionality before launch, we guarantee that your product performs flawlessly under all conditions."
         },
         {
@@ -60,12 +95,19 @@ const AgiluxServices = () => {
                     {AgiluxServices.map((item, index) => (
                         <div key={index} className="AgiluxServicesContainer" data-aos="fade-up"
                             data-aos-duration="1000"
-                            data-aos-delay={`${index * 100}`}>
+                            data-aos-delay={`${index * 100}`}
+                            onMouseMove={(e) => handleMouseMove(e, index)}
+                            onMouseLeave={() => handleMouseLeave(index)}
+                        >
                             <div className="InsideFlexContainer">
                                 {/* <img src={item.image} alt=""  className="AbsoluteImage"/> */}
                                 <div>
                                     <h5 style={{ color: "black", margin: "0px" }}>/&nbsp;{index + 1}</h5>&nbsp;&nbsp;&nbsp;<h2>{item.Title}</h2>
                                 </div>
+                                <img src={item.image} alt="" className="AnimatedHoverImage" style={{
+                                    transform: transformValues[index], // Apply dynamic transform
+                                    transition: 'transform 0.5 ease', // Smooth transition
+                                }} />
                                 <div>
                                     {item.Description}
                                     <br />

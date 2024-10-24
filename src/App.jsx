@@ -7,7 +7,7 @@ import WebDevelopment from './Components/MinimalComponent/WebDevelopmentProjects
 import AgiluxAboutUs from './Components/AgiluxAboutUs/AgiluxAboutUs';
 import AgiluxFooter from './Components/AgiluxFooter/AgiluxFooter';
 import AgiluxBlog from './Components/AgiluxBlog/AgiluxBlog';
-import AppDevelopmentServices from './Components/MinimalComponent/AgiluxServicesExplain/AppDevelopementServices';
+// import AppDevelopmentServices from './Components/MinimalComponent/AgiluxServicesExplain/AppDevelopementServices';
 import CommonServices from './Components/MinimalComponent/CommonServices/CommonServices';
 import AgiluxVideoContent from './Components/MinimalComponent/VideoTab/AgiluxVideoContent';
 function App() {
@@ -21,7 +21,7 @@ function App() {
         <Route exact path="/agiluxblog" element={<AgiluxBlog />} />
         <Route exact path="/appdevelopment" element={<AppDevelopment />} />
         <Route exact path="/webdevelopment" element={<WebDevelopment />} />
-        <Route exact path="/appdevelopmentservices" element={<AppDevelopmentServices />} />
+        {/* <Route exact path="/appdevelopmentservices" element={<AppDevelopmentServices />} /> */}
         <Route exact path="/services/:service" element={<CommonServices />} />
         <Route exact path="/agiluxVideoContent" element={<AgiluxVideoContent />} />
       </Routes>

@@ -6,7 +6,7 @@
     font-weight: 400;
 }
 .DescriptionContainer p{
-    margin-bottom: 10px;
+    margin-bottom: 1cap;
 }
 
 @media (max-width:769px){

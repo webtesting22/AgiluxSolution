@@ -9,7 +9,7 @@ const AgiluxVideoContent = () => {
         <>
             <div className="TopContainer">
                 <div>
-                    <h4>/ Agilux Video</h4>
+                    {/* <h4>/ Agilux Video</h4> */}
                     <div style={{ display: "flex", justifyContent: "space-Between" }}>
                         <h2>Video Editing</h2>
                     </div>

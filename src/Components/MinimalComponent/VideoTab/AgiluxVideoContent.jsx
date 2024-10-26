@@ -7,6 +7,7 @@ import LogoAnimation from "./Logo Animation.mp4"
 const AgiluxVideoContent = () => {
     return (
         <>
+           <section>
            <div className="TopContainer">
                 <div>
                     <h2>/ Video Editing</h2>
@@ -161,6 +162,7 @@ const AgiluxVideoContent = () => {
                 </Row>
 
             </div>
+           </section>
         </>
     )
 }

@@ -7,12 +7,9 @@ import LogoAnimation from "./Logo Animation.mp4"
 const AgiluxVideoContent = () => {
     return (
         <>
-            <div className="TopContainer">
+           <div className="TopContainer">
                 <div>
-                    {/* <h4>/ Agilux Video</h4> */}
-                    <div style={{ display: "flex", justifyContent: "space-Between" }}>
-                        <h2>Video Editing</h2>
-                    </div>
+                    <h2>/ Video Editing</h2>
                 </div>
             </div>
 

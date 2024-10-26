@@ -55,16 +55,12 @@
 #PCOnly{
     display: block;
 }
-#MobileOnly{
-    display: none;
-}
+
 @media (max-width:769px) {
     #PCOnly{
         display: none;
     }
-    #MobileOnly{
-        display: block;
-    }
+    
     .anothercontainer {
         width: 100%;
     }

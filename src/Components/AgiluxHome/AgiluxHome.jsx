@@ -1,7 +1,4 @@
 import React, { useEffect, useState, useRef } from "react";
-import { ssrExportAllKey } from "vite/runtime";
-import BackVideo from "./BackGround.mp4"
-import Mobilescreen from "./Mobilescreen.mp4"
 import "./AgiluxHome.css"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { FaArrowRightLong } from "react-icons/fa6";
@@ -10,7 +7,6 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 // import required modules
 import { Pagination, Autoplay } from 'swiper/modules';
-import Expertise from "../Expertise/Expertise";
 import AgiluxMV from "../AgiluxMissionVision/AgiluxMV";
 import AgiluxServices from "../AgiluxCoreServices/AgiluxServices";
 import AgiluxWhyUs from "../AgiluxWhyUs/AgiluxWhyUs";
@@ -90,7 +86,7 @@ const AgiluxHome = () => {
                         <video
                             id="PcONly"
                             ref={videoRef}
-                            src={BackVideo}
+                            src="https://webtesting-upload.vercel.app/assets/BackGround-Bm87DAX-.mp4"
                             loop={true} // We control the loop manually
                             autoPlay
                             muted
@@ -101,7 +97,7 @@ const AgiluxHome = () => {
                         <video
                             id="Mobileonly"
                             ref={videoRef}
-                            src={Mobilescreen}
+                            src="https://webtesting-upload.vercel.app/assets/Mobilescreen-CpsBTcOJ.mp4"
                             loop={true} // We control the loop manually
                             autoPlay
                             muted

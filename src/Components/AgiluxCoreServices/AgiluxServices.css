@@ -107,6 +107,25 @@
 
 
 @media (max-width:679px) {
+    .InsideFlexContainer .AnimatedHoverImage {
+        position: absolute;
+        width: 100%;
+        left: 0%;
+        top: -10%;
+        opacity: 0;
+        transition: 1s;
+    
+    }
+    
+    .InsideFlexContainer:hover .AnimatedHoverImage {
+        position: absolute;
+        width: 100%;
+        left: 0%;
+        top: 4;
+        opacity: 1;
+        transition: 1s;
+        border-radius: 20px;
+    }
     .AgiluxCoreServicesContainer h2 {
         font-size: 40px;
         font-weight: 100;

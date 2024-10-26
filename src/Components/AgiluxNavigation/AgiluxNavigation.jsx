@@ -185,7 +185,7 @@ const AgiluxNavigation = () => {
                                 </div>
                             </>
                         )}><span>Graphic Designing<hr /></span></p>
-                        <Link to="/agiluxVideoContent"><p onClick={onClose}><span>Video Editing<hr /></span></p></Link>
+                       
                         <p onClick={() => showChildrenDrawer(
                             <>
                                 <div className="ChildDrawerContent">
@@ -222,6 +222,7 @@ const AgiluxNavigation = () => {
                     <div className="NavigationChildLinks">
                         <Link to="/appdevelopment"><p onClick={onClose}><span>App Development<hr /></span></p></Link>
                         <Link to="/webdevelopment"><p onClick={onClose}><span>Web Development<hr /></span></p></Link>
+                        <Link to="/agiluxVideoContent"><p onClick={onClose}><span>Video Editing<hr /></span></p></Link>
                     </div>
                 </>,
         },

@@ -55,7 +55,9 @@
 #PCOnly{
     display: block;
 }
-
+#MobileOnly{
+    display: none;
+}
 @media (max-width:769px) {
     #PCOnly{
         display: none;
@@ -67,5 +69,8 @@
 
     .SwiperContentContainer {
         width: 100%;
+    }
+    #MobileOnly{
+        display: block;
     }
 }

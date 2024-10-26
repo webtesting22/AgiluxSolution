@@ -128,7 +128,7 @@ const AgiluxHome = () => {
                                     className="mySwiper"
                                 >
                                     {TextSlider.map((item, index) => (
-                                        <SwiperSlide><div className="TextAnimated">{item.text}</div></SwiperSlide>
+                                        <SwiperSlide key={index}><div className="TextAnimated">{item.text}</div></SwiperSlide>
                                     ))}
 
                                 </Swiper>

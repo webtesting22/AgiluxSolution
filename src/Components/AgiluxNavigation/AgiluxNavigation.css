@@ -130,6 +130,7 @@
     transform: translatex(10px);
     transition: .5s;
     cursor: pointer;
+    color: white;
 }
 
 

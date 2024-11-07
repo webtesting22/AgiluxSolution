@@ -189,11 +189,36 @@ const AgiluxNavigation = () => {
                         <p onClick={() => showChildrenDrawer(
                             <>
                                 <div className="ChildDrawerContent">
-                                    <p>/ Test Environment Setup</p>
-                                    <p>/ Unit Testing Automation</p>
-                                    <p>/ Integration Testing Automation</p>
-                                    <p>/ Performance Testing Automation</p>
-                                    <p>/ Test Report and Documentation</p>
+                                <Link to="/services/Test-Environment-Setup"
+                                        onClick={() => {
+                                            onClose();
+                                            onChildrenDrawerClose();
+                                        }}> <p>/ Test Environment Setup</p>
+                                    </Link>
+                                    <Link to="/services/Unit-Testing-Automation"
+                                        onClick={() => {
+                                            onClose();
+                                            onChildrenDrawerClose();
+                                        }}> <p>/ Unit Testing Automation</p>
+                                    </Link>
+                                    <Link to="/services/Integration-Testing-Automation"
+                                        onClick={() => {
+                                            onClose();
+                                            onChildrenDrawerClose();
+                                        }}> <p>/ Integration Testing Automation</p>
+                                    </Link>
+                                    <Link to="/services/Performance-Testing-Automation"
+                                        onClick={() => {
+                                            onClose();
+                                            onChildrenDrawerClose();
+                                        }}> <p>/ Performance Testing Automation</p>
+                                    </Link>
+                                    <Link to="/services/Test-Report-and-Documentation"
+                                        onClick={() => {
+                                            onClose();
+                                            onChildrenDrawerClose();
+                                        }}> <p>/ Test Report and Documentation</p>
+                                    </Link>
 
                                 </div>
                             </>
@@ -201,12 +226,24 @@ const AgiluxNavigation = () => {
                         <p onClick={() => showChildrenDrawer(
                             <>
                                 <div className="ChildDrawerContent">
-                                    <p>/ SEO Audit & Analysis</p>
-                                    <p>/ Technical SEO Optimization</p>
-                                    <p>/ On-Page SEO Optimization</p>
-                                    <p>/ Content Strategy & Creation</p>
-                                    <p>/ Off-Page SEO & Link Building</p>
-                                    <p>/ Ongoing SEO Monitoring & Reporting</p>
+                                <Link to="/services/Search-Engine-Optimization-(SEO)"
+                                        onClick={() => {
+                                            onClose();
+                                            onChildrenDrawerClose();
+                                        }}> <p>/ Search Engine Optimization (SEO)</p>
+                                    </Link>
+                                    <Link to="/services/Social-Media-Marketing-(SMM)"
+                                        onClick={() => {
+                                            onClose();
+                                            onChildrenDrawerClose();
+                                        }}> <p>/ Social Media Marketing (SMM)</p>
+                                    </Link>
+                                    <Link to="/services/Video-Production-and-Editing"
+                                        onClick={() => {
+                                            onClose();
+                                            onChildrenDrawerClose();
+                                        }}> <p>/ Video Production and Editing</p>
+                                    </Link>
 
                                 </div>
                             </>
@@ -222,7 +259,7 @@ const AgiluxNavigation = () => {
                     <div className="NavigationChildLinks">
                         <Link to="/appdevelopment"><p onClick={onClose}><span>App Development<hr /></span></p></Link>
                         <Link to="/webdevelopment"><p onClick={onClose}><span>Web Development<hr /></span></p></Link>
-                        <Link to="/agiluxVideoContent"><p onClick={onClose}><span>Video Editing<hr /></span></p></Link>
+                        <Link to="/agiluxVideoContent"><p onClick={onClose}><span>Advertising and Brand Building<hr /></span></p></Link>
                     </div>
                 </>,
         },

@@ -297,7 +297,7 @@ const AgiluxNavigation = () => {
 
                     <Drawer
                         title={<>
-                            <div className="DrawerTitle">
+                            <div >
                                 <h3>Explore</h3>
                             </div>
                         </>}

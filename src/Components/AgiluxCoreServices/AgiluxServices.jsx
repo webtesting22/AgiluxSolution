@@ -4,6 +4,8 @@ import GraphicDesign from "./GraphicDesign.jpeg"
 import img1 from "../MinimalComponent/AppDevelopmentProjects/AppDev.avif"
 import img2 from "../MinimalComponent/CommonServices/FrontendDevelopment.jpg"
 import img3 from "../MinimalComponent/CommonServices/TestingWeb.jpg"
+import { Row, Col } from "antd";
+import { FaArrowRightLong } from "react-icons/fa6";
 const AgiluxServices = () => {
     const [transformValues, setTransformValues] = useState({});
 
@@ -39,13 +41,28 @@ const AgiluxServices = () => {
         {
             Title: "App Development",
             image: img1,
-            keyWord: "Mobile App Development Services",
+            keyWord: [
+                "UI/UX Design",
+                "Frontend Development",
+                "Backend Development & API Integration",
+                "Testing and Quality Assurance",
+                "Deployment and Submission",
+                "Post-Launch Support & Maintenance"
+
+            ],
             Description: "We build robust, scalable, and user-friendly mobile applications for iOS and Android, turning your ideas into powerful tools that drive user engagement and business growth."
         },
         {
             Title: "Web Development",
-            image:img2,
-            keyWord: "Website Optimization.",
+            image: img2,
+            keyWord: [
+                "UI/UX Design",
+                "Frontend Development",
+                "Backend Development",
+                "Content Management System (CMS)",
+                "Testing & Quality Assurance",
+                "Post-Launch Support & Maintenance"
+            ],
             Description: "Our web development services are designed to create high-performing, responsive, and visually appealing websites that provide seamless user experiences. From e-commerce platforms to corporate websites, we ensure your online presence is impactful and effective."
         },
         // {
@@ -65,7 +82,7 @@ const AgiluxServices = () => {
         {
             Title: "Automated Testing",
             keyWord: "Test Automation",
-            image:img3,
+            image: img3,
             Description: "We ensure the reliability and performance of your software through rigorous automated testing. By identifying bugs and improving functionality before launch, we guarantee that your product performs flawlessly under all conditions."
         },
         {
@@ -84,15 +101,54 @@ const AgiluxServices = () => {
     ]
     return (
         <>
-            <section style={{ backgroundColor: "white" }}>
+            <section id="ServiceHomesectio">
                 <div className="AgiluxCoreServicesContainer">
-                    <h4 style={{ color: "black", fontWeight: "400" }}>/ Our Services</h4>
+                    <h4 style={{ color: "white", fontWeight: "400" }}>/ Our Services</h4>
                     <div style={{ display: "flex", justifyContent: "space-Between", padding: "2rem 0rem" }}>
                         <h2>Business Solutions</h2>
                     </div>
+                    {AgiluxServices.map((item, index) => (
+                        <div className="EveryRow">
+                            <Row key={index}>
+                                <Col lg={8}>
+                                    <div className="InsideFlexContainer">
+                                        <div>
+                                            <h5 style={{ color: "white", margin: "0px" }}>/&nbsp;{index + 1}</h5>&nbsp;&nbsp;&nbsp;<h2>{item.Title}</h2>
+                                        </div>
+                                    </div>
+                                </Col>
+
+                                <Col lg={8}>
+                                    <div className="ServicesPointsAndDescription">
+                                        <div>
+                                            {Array.isArray(item.keyWord) ? (
+                                                item.keyWord.map((word, i) => <p key={i}><span>/ {word}</span> <FaArrowRightLong /></p>)
+                                            ) : (
+                                                <p>/ {item.keyWord} <FaArrowRightLong /></p>
+                                            )}
+                                        </div>
+                                        <div>
+                                            <p style={{ paddingTop: "20px" }}>{item.Description}</p>
+                                        </div>
+
+                                    </div>
+                                </Col>
+                                <Col lg={8}>
+                                    <div className="RightSideImageContainer">
+                                        {/* <div> */}
+                                        <img src={item.image} alt="" />
+                                        {/* <p>/ {item.keyWord}</p> */}
+                                        {/* </div> */}
+                                    </div>
+                                </Col>
+
+                            </Row>
+                        </div>
+                    ))}
+
                     {/* <div className="AgiluxServicesContainer"> */}
 
-                    {AgiluxServices.map((item, index) => (
+                    {/* {AgiluxServices.map((item, index) => (
                         <div key={index} className="AgiluxServicesContainer" data-aos="fade-up"
                             data-aos-duration="1000"
                             data-aos-delay={`${index * 100}`}
@@ -100,7 +156,7 @@ const AgiluxServices = () => {
                             onMouseLeave={() => handleMouseLeave(index)}
                         >
                             <div className="InsideFlexContainer">
-                                {/* <img src={item.image} alt=""  className="AbsoluteImage"/> */}
+                                <img src={item.image} alt=""  className="AbsoluteImage"/>
                                 <div>
                                     <h5 style={{ color: "black", margin: "0px" }}>/&nbsp;{index + 1}</h5>&nbsp;&nbsp;&nbsp;<h2>{item.Title}</h2>
                                 </div>
@@ -116,7 +172,7 @@ const AgiluxServices = () => {
                                 </div>
                             </div>
                         </div>
-                    ))}
+                    ))} */}
 
 
                     {/* </div> */}

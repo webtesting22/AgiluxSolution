@@ -3,6 +3,7 @@ import "./AgiluxNavigation.css";
 import { Button, Drawer, Collapse } from 'antd';
 import { Link } from "react-router-dom";
 import { MdOutlineMenu } from "react-icons/md";
+import AgiluxLogo from "./AgiluxLogo.png"
 const AgiluxNavigation = () => {
     const [open, setOpen] = useState(false);
     const [childrenDrawer, setChildrenDrawer] = useState(false);
@@ -287,7 +288,9 @@ const AgiluxNavigation = () => {
         <div className={`AgiluxNavigation ${scrolled ? 'scrolled' : ''}`}>
             <div className="NavigationContainer">
                 <div className="AgiluxLogoAnimated">
-                    <Link to="/"><h4>Agilux</h4></Link>
+                    <div className="AgiluxLogoContainer">
+                    <Link to="/"><img src={AgiluxLogo} alt="" /></Link>
+                    </div>
                     <div className="ExploreTabs" onClick={showDrawer}>
                         <MdOutlineMenu />
                     </div>

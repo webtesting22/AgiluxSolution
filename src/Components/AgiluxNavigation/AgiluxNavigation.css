@@ -143,7 +143,13 @@
     margin: 10px 0px;
 }
 
+.AgiluxLogoContainer img{
+    width: 100px;
+}
 @media (max-width:768px) {
+    .AgiluxLogoContainer img{
+        width: 70px;
+    }
     .AgiluxLogoAnimated {
         display: flex;
         justify-content: space-between;

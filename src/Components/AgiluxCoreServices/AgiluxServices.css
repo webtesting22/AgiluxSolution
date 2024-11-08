@@ -1,11 +1,11 @@
 .AgiluxCoreServicesContainer {
-    padding: 0rem 3rem;
-    /* background-color: white; */
-    color: rgb(255, 255, 255);
+    padding: 0rem 8rem;
+    background-color: white;
+    color: black;
 }
 
 .AgiluxCoreServicesContainer h4 {
-    color: rgb(255, 255, 255);
+    color: black;
 }
 
 .AgiluxCoreServicesContainer h2 {
@@ -14,7 +14,7 @@
     /* margin: 10px 0px; */
     margin-top: 0px;
     margin-bottom: 10px;
-    color: rgb(255, 255, 255);
+    color: black;
 }
 
 .AgiluxServicesContainer {
@@ -39,7 +39,6 @@
 
 .AgiluxServicesContainer:hover .InsideFlexContainer {
     padding: 3rem 0rem;
-
     transition: .5s;
 }
 
@@ -51,7 +50,6 @@
 .InsideFlexContainer {
     display: flex;
     padding: 2rem 0rem;
-    padding-top: 0rem !important;
     transition: .5s;
     position: relative;
     justify-content: space-between;
@@ -67,7 +65,7 @@
 }
 
 .InsideFlexContainer h2 {
-    color: white;
+    color: black;
     font-weight: 400;
     margin: 0px;
     font-size: 25px;
@@ -81,7 +79,7 @@
 }
 
 .InsideFlexContainer>div:last-child {
-    width: 100%;
+    width: 50%;
 }
 
 .InsideFlexContainer .AnimatedHoverImage {
@@ -91,6 +89,7 @@
     top: -10%;
     opacity: 0;
     transition: 1s;
+    display: none;
 
 }
 
@@ -102,78 +101,12 @@
     opacity: 1;
     transition: 1s;
     border-radius: 20px;
+    display: none;
 }
-
-.InsideFlexContainer:hover .AnimatedHoverImage:hover {
+.InsideFlexContainer:hover .AnimatedHoverImage:hover{
     opacity: 1;
 }
-.ServicesPointsAndDescription div:first-child p{
-    position: relative;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    border-top: 1px dashed rgba(255, 255, 255, 0.388);
-}
-.ServicesPointsAndDescription div:first-child p span {
-    color: white;
-    font-weight: 400;
-    padding: 20px 0px;
-    font-size: 20px;
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-}
-.ServicesPointsAndDescription div:first-child p svg{
-    position: absolute;
-    right: 0px;
-    /* top: 0px; */
-    height: 40px;
-    border-radius: 10px;
-    padding: 0px 12px;
-    background-color: white;
-    opacity: 0;
-    transform: scale(0);
-    transition: .5s;
 
-
-}
-
-.ServicesPointsAndDescription div:first-child p:hover svg{
-    position: absolute;
-    right: 0px;
-    /* top: 0px; */
-    height: 40px;
-    border-radius: 10px;
-    padding: 0px 12px;
-    background-color: white;
-    color: black;
-    opacity: 1;
-    transform: scale(1.1);
-    transition: .5s;
-
-}
-.ServicesPointsAndDescription div:last-child p {
-    border-top: 1px dashed rgba(255, 255, 255, 0.388);
-}
-
-.EveryRow {
-    padding-bottom: 4rem;
-}
-
-.RightSideImageContainer {
-    display: flex;
-    justify-content: end;
-    width: 100%;
-    align-items: end;
-    /* flex-direction: column; */
-
-}
-
-.RightSideImageContainer img {
-    width: 50%;
-    border-radius: 20px;
-}
 
 @media (max-width:679px) {
     .InsideFlexContainer .AnimatedHoverImage {
@@ -183,9 +116,9 @@
         top: -10%;
         opacity: 0;
         transition: 1s;
-
+    
     }
-
+    
     .InsideFlexContainer:hover .AnimatedHoverImage {
         position: absolute;
         width: 100%;
@@ -195,18 +128,17 @@
         transition: 1s;
         border-radius: 20px;
     }
-
     .AgiluxCoreServicesContainer h2 {
         font-size: 40px;
         font-weight: 100;
         /* margin: 10px 0px; */
         margin-top: 0px;
         margin-bottom: 10px;
-        color: white;
+        color: black;
     }
 
     .InsideFlexContainer h2 {
-        color: white;
+        color: black;
         font-weight: 400;
         margin: 0px;
         font-size: 25px;
@@ -215,8 +147,8 @@
 
     .AgiluxCoreServicesContainer {
         padding: 0rem 1rem;
-        /* background-color: white; */
-        color: white;
+        background-color: white;
+        color: black;
     }
 
     .InsideFlexContainer {

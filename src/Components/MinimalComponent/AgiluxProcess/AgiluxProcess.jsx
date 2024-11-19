@@ -42,8 +42,8 @@ const AgiluxProcess = () => {
                 <div className="BackOverlayImage">
 
                     <div className="AgiluxProcessContainer">
-                        <img src={Background} alt="" id="PCOnly" />
-                        <img src={BackgroundMobile} id="MobileOnly" alt="" />
+                        <img src={Background} alt="Agilux Digital Agency Process Banner for Desktop" id="PCOnly" />
+                        <img src={BackgroundMobile} id="MobileOnly" alt="Agilux Digital Agency Process Banner for Mobile" />
                         <div className="BlackOverlay">
 
                         </div>

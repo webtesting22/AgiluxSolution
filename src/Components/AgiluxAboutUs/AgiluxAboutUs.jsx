@@ -75,7 +75,7 @@ const AgiluxAboutUs = () => {
                 </div>
                 <div className="AgiluxProcessContainer">
                         <div>
-                            <img src={AboutUsBack} alt="" />
+                        <img src={AboutUsBack} alt="Agilux Solutions - Our Process Overview" />
                             {/* <img src={AboutUsBack2} alt="" />
                             <img src={AboutUsBack} alt="" /> */}
                         </div>

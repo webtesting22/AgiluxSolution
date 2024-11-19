@@ -1514,7 +1514,7 @@ const CommonServices = () => {
                 </div>
             </div>
             <div className='DescriptionContainer'>
-                <p>{currentService.description}</p>
+               {currentService.description}
             </div>
         </section>
     );

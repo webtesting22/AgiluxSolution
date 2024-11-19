@@ -321,7 +321,7 @@ const AgiluxNavigation = () => {
                     >
                         <button onClick={onChildrenDrawerClose}>X</button>
                         {/* Display the selected content here */}
-                        <p>{selectedContent}</p>
+                       {selectedContent}
                     </Drawer>
                 </div>
             </div>

@@ -13,9 +13,9 @@ const AgiluxMV = () => {
                         <div className="OurMissionDetails">
 
                             <div style={{ display: "flex", justifyContent: "space-Between", padding: "2rem 0rem" }}>
-                                <h2>Transforming Ideas into Reality</h2>
+                                <h2>Transforming Ideas into Digital Excellence</h2>
                             </div>
-                            <p>At Agilux Solution, our mission is to deliver innovative, agile, and tailor-made technology solutions that empower businesses to achieve operational excellence and scalability. We are committed to providing world-class services that seamlessly integrate cutting-edge technology with user-focused design, enabling our clients to thrive, adapt, and stay ahead in a rapidly evolving digital ecosystem.
+                            <p>Agilux mission is to help businesses succeed in the digital world. We are committed to continually challenging limits to ensure our clients remain at the forefront.
                             </p>
 
                         </div>
@@ -28,9 +28,9 @@ const AgiluxMV = () => {
                         <div className="OurMissionDetails">
 
                             <div style={{ display: "flex", justifyContent: "space-Between", padding: "2rem 0rem" }}>
-                                <h2>Leading with Purpose</h2>
+                                <h2>Partner for Every Business</h2>
                             </div>
-                            <p>Our vision is to be recognized globally as a leader in agile software solutions and digital transformation. We aspire to create a future where businesses of all sizes can harness the power of technology to accelerate growth, optimize performance, and foster sustainable innovation across industries. By continuously driving change, we aim to set new benchmarks in quality, efficiency, and client satisfaction.</p>
+                            <p>Agilux aims to deliver groundbreaking and customized technology solutions that enable companies to optimize performance and drive sustainable growth steadily for the long run. We are committed to providing sophisticated output to our clients that helps them stay ahead in a rapidly evolving digital ecosystem. We believe in the power of technology to unlock new possibilities which is helpful for bussiness growth. Agilux helps your business thrive in today’s competitive market. Our experts who are passionate about innovation, we craft digital solutions tailored to your needs, ensuring seamless integration and enhanced user experience for long-term growth</p>
 
                         </div>
                     </div>

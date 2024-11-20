@@ -66,8 +66,10 @@ const AgiluxServices = () => {
                 <div className="AgiluxCoreServicesContainer">
                     <h4 style={{ color: "black", fontWeight: "400" }}>/ Our Services</h4>
                     <div style={{ display: "flex", justifyContent: "space-Between", padding: "2rem 0rem" }}>
+                        <div>
                         <h2>Business Solutions</h2>
-                    </div>
+                        <p style={{color:"black"}}>At Agilux Solution, we offer a full suite of services designed to cover every aspect of your digital journey. Launching a new product? Upgrading an existing one? Or just looking to strengthen your online presence? Whatever digital challenge you're facing, we've got the expertise to make it work - and work really well for your business.</p>
+                    </div></div>
 
                     {AgiluxServices.map((item, index) => (
                         <div key={index} className="AgiluxServicesContainer" data-aos="fade-up"

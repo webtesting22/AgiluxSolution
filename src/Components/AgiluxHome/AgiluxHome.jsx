@@ -86,7 +86,7 @@ const AgiluxHome = () => {
                         <video
                             id="PcONly"
                             ref={videoRef}
-                            src="https://webtesting-upload.vercel.app/assets/BackGround-Bm87DAX-.mp4"
+                            src="https://webtesting-upload.vercel.app/assets/BackGround-DuFX_wDI.mp4"
                             loop={true} // We control the loop manually
                             autoPlay
                             preload="auto"

@@ -89,6 +89,7 @@ const AgiluxHome = () => {
                             src="https://webtesting-upload.vercel.app/assets/BackGround-Bm87DAX-.mp4"
                             loop={true} // We control the loop manually
                             autoPlay
+                            preload="auto"
                             muted
                             onTimeUpdate={handleTimeUpdate}
                             onEnded={handleVideoEnd}
@@ -100,6 +101,7 @@ const AgiluxHome = () => {
                             src="https://webtesting-upload.vercel.app/assets/Mobilescreen-CpsBTcOJ.mp4"
                             loop={true} // We control the loop manually
                             autoPlay
+                            preload="auto"
                             muted
                             onTimeUpdate={handleTimeUpdate}
                             onEnded={handleVideoEnd}

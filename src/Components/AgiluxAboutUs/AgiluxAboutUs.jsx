@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 import "./AgiluxAboutUs.css"
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -16,8 +16,8 @@ import { FreeMode, Pagination, Autoplay } from 'swiper/modules';
 const AgiluxAboutUs = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);
-    
+    }, []);
+
     const AboutUsCarousalCard = [
         {
             Title: "Innovation",
@@ -44,13 +44,13 @@ const AgiluxAboutUs = () => {
                 <div className="TopContainer">
                     <div>
                         <h4>/ About Us</h4>
-                        <div style={{ display: "flex", justifyContent: "space-Between"}}>
+                        <div style={{ display: "flex", justifyContent: "space-Between" }}>
                             <h2>Agilux About Us</h2>
                         </div>
                     </div>
                 </div>
                 <div className="AgiluxAboutUs">
-
+                    <img src="https://webtesting-upload.vercel.app/assets/AboutUsAgilux-CAQZPR9a.jpg" alt="" style={{width:"100%",marginBottom:"2rem"}}/>
                     <p>At Agilux, we empower businesses to thrive in the digital age. As a leading provider of innovative app and
                         web development solutions, we harness the power of technology to drive growth, improve efficiency, and enhance customer
                         experiences. With a team of expert developers, designers, and strategists, we craft bespoke digital products that meet the
@@ -71,52 +71,52 @@ const AgiluxAboutUs = () => {
 
                     <br /><br />
                     <br />
-                    
+
                 </div>
                 <div className="AgiluxProcessContainer">
-                        <div>
+                    <div>
                         <img src={AboutUsBack} alt="Agilux Solutions - Our Process Overview" />
-                            {/* <img src={AboutUsBack2} alt="" />
+                        {/* <img src={AboutUsBack2} alt="" />
                             <img src={AboutUsBack} alt="" /> */}
-                        </div>
+                    </div>
 
-                        <div className="BlackOverlay">
+                    <div className="BlackOverlay">
 
-                        </div>
-                        <div className="anothercontainer">
-                            <div style={{ width: "100%",padding:"0px 20px" }}>
-                                <h4>/ Our values are simple yet powerful:</h4>
-                                {/* <div style={{ display: "flex", justifyContent: "space-Between", padding: "2rem 0rem" }}>
+                    </div>
+                    <div className="anothercontainer">
+                        <div style={{ width: "100%", padding: "0px 20px" }}>
+                            <h4>/ Our values are simple yet powerful:</h4>
+                            {/* <div style={{ display: "flex", justifyContent: "space-Between", padding: "2rem 0rem" }}>
                                 <h2>Leading with Purpose</h2>
                             </div> */}
-                                <Swiper
-                                    spaceBetween={30}
-                                    loop={true}
-                                    autoplay={{
-                                        delay: 2000,
-                                        disableOnInteraction: false,
-                                    }}
-                                    // pagination={{
-                                    //     clickable: true,
-                                    // }}
-                                    effect="fade"
-                                    speed={900}
-                                    modules={[Autoplay]}
-                                    className="mySwiper"
-                                >
-                                    {AboutUsCarousalCard.map((item, index) => (
-                                        <SwiperSlide key={index}>
-                                            <div className="SwiperContentContainer">
-                                                <h3>{item.Title}</h3>
-                                                <p>{item.Description}</p>
-                                            </div>
-                                        </SwiperSlide>
-                                    ))}
+                            <Swiper
+                                spaceBetween={30}
+                                loop={true}
+                                autoplay={{
+                                    delay: 2000,
+                                    disableOnInteraction: false,
+                                }}
+                                // pagination={{
+                                //     clickable: true,
+                                // }}
+                                effect="fade"
+                                speed={900}
+                                modules={[Autoplay]}
+                                className="mySwiper"
+                            >
+                                {AboutUsCarousalCard.map((item, index) => (
+                                    <SwiperSlide key={index}>
+                                        <div className="SwiperContentContainer">
+                                            <h3>{item.Title}</h3>
+                                            <p>{item.Description}</p>
+                                        </div>
+                                    </SwiperSlide>
+                                ))}
 
-                                </Swiper>
-                            </div>
+                            </Swiper>
                         </div>
                     </div>
+                </div>
             </section>
         </>
     )

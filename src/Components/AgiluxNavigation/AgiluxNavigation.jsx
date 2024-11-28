@@ -187,7 +187,7 @@ const AgiluxNavigation = () => {
                             </>
                         )}><span>Graphic Designing<hr /></span></p>
                        
-                        <p onClick={() => showChildrenDrawer(
+                        {/* <p onClick={() => showChildrenDrawer(
                             <>
                                 <div className="ChildDrawerContent">
                                 <Link to="/services/Test-Environment-Setup"
@@ -223,7 +223,7 @@ const AgiluxNavigation = () => {
 
                                 </div>
                             </>
-                        )}><span>QA Automatic Testing<hr /></span></p>
+                        )}><span>QA Automatic Testing<hr /></span></p> */}
                         <p onClick={() => showChildrenDrawer(
                             <>
                                 <div className="ChildDrawerContent">

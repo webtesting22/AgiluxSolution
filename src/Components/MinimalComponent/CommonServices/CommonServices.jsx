@@ -874,7 +874,7 @@ const serviceData = {
         title: "Concept Development & Ideation",
         description:
             <>
-                <img src={ConceptDevelopmentIdeation} alt="Agilux Solutions Concept Development and Ideation for Innovative Projects" />
+                <img src="https://webtesting-upload.vercel.app/assets/ConceptDevelopmentIdeation-BVvLdFyr.jpg" alt="Agilux Solutions Concept Development and Ideation for Innovative Projects" />
                 <p><b>Turning Vision into Visual Reality</b></p>
                 <p>At the heart of every impactful design lies a powerful idea. Our Concept Development & Ideation process is where your brand's vision takes shape. Through a blend of creativity, strategy, and collaboration, we transform abstract ideas into compelling visual concepts that resonate with your audience.</p>
                 <p><b>Our Approach to Concept Development</b></p>
@@ -895,7 +895,7 @@ const serviceData = {
         title: "Design Execution",
         description:
             <>
-               <img src={DesignExecution} alt="Agilux Solutions Design Execution for High-Quality User Interfaces" />
+               <img src="https://webtesting-upload.vercel.app/assets/DesignExecution-kVPdvy0K.jpg" alt="Agilux Solutions Design Execution for High-Quality User Interfaces" />
                 <p><b>Design Execution</b></p>
                 <p>From Concept to Creation</p>
                 <p>Once the concept is finalized, the next step is turning it into reality. Our Design Execution phase is where creativity meets precision, ensuring every design is crafted with attention to detail, consistency, and purpose. Whether it’s digital, print, or multimedia, we bring your ideas to life through flawless execution.
@@ -923,7 +923,7 @@ const serviceData = {
         title: "Revisions-and-Final-Adjustments",
         description:
             <>
-                <img src={FinalAdjustments} alt="Agilux Solutions Revisions and Final Adjustments for Optimized Designs" />
+                <img src="https://webtesting-upload.vercel.app/assets/FinalAdjustments-7x2F4ZqJ.jpg" alt="Agilux Solutions Revisions and Final Adjustments for Optimized Designs" />
                 <p><b>Revisions and Final Adjustments</b></p>
                 <p>Perfecting Every Detail</p>
                 <p>We understand that great design is a collaborative process, and feedback is essential to achieving the perfect final product. Our Revisions and Final Adjustments phase ensures that the design not only meets but exceeds your expectations. This is where your feedback and our expertise come together to fine-tune every detail, ensuring a flawless result.
@@ -953,7 +953,7 @@ const serviceData = {
         title: "File Preparation and Delivery",
         description:
             <>
-                <img src={FilePreparationandDelivery} alt="Agilux Solutions File Preparation and Delivery Services" />
+                <img src="https://webtesting-upload.vercel.app/assets/File%20PreparationandDelivery-C4qLe9j_.jpg" alt="Agilux Solutions File Preparation and Delivery Services" />
                 <p><b>File Preparation and Delivery</b></p>
                 <p>Ready for Every Platform, Every Format</p>
                 <p>At the conclusion of every project, ensuring that the final design files are meticulously prepared and delivered in the correct formats is crucial for your success. Our File Preparation and Delivery process guarantees that your designs are not only visually stunning but also ready to be implemented flawlessly, whether for print, digital use, or multimedia applications.
@@ -986,7 +986,7 @@ const serviceData = {
     "Client-Handoff-and-Support": {
         title: "Client Handoff and Support",
         description: <>
-            <img src={ClientHandoffandSupport} alt="Agilux Solutions Client Handoff and Support Services" />
+            <img src="https://webtesting-upload.vercel.app/assets/Client%20HandoffandSupport-zlwyHXgl.jpg" alt="Agilux Solutions Client Handoff and Support Services" />
             <p><b>Client Handoff and Support</b></p>
             <p>Seamless Handoff, Ongoing Support</p>
             <p>At the end of every project, we ensure a smooth and seamless handoff, giving you everything you need to successfully implement your new designs. Our Client Handoff and Support process is designed to ensure that you feel confident using and applying the final designs, with ongoing support to address any future needs.

@@ -82,7 +82,7 @@ const AgiluxHome = () => {
         <>
             <section className="AgiluxHomeContainer">
                 <div style={{ overflow: "hidden", width: "100%" }}>
-                    <div className={`video-container ${isFading ? 'fade-out' : 'fade-in'}`}>
+                    <div className="video-container">
                         <video
                             id="PcONly"
                             ref={videoRef}
@@ -93,7 +93,7 @@ const AgiluxHome = () => {
                             muted
                             onTimeUpdate={handleTimeUpdate}
                             onEnded={handleVideoEnd}
-                            style={{ width: '100%', height: 'auto' }}
+                            style={{ width: '100%', objectFit:"cover" }}
                         />
                         <video
                             id="Mobileonly"
@@ -105,7 +105,7 @@ const AgiluxHome = () => {
                             muted
                             onTimeUpdate={handleTimeUpdate}
                             onEnded={handleVideoEnd}
-                            style={{ width: '100%', height: 'auto' }}
+                            style={{ width: '100%', objectFit:"cover"  }}
                         />
 
                     </div>

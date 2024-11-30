@@ -17,14 +17,15 @@
     display: flex;
     justify-content: center;
     padding-top: 0px;
+    height: 100vh;
 }
 
 .AgiluxHomeContentContainer {
     position: absolute;
     z-index: 5;
     width: 50%;
-    height: 100vh;
-    top: 10%;
+    /* height: 100vh; */
+    /* top: 10%; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,6 +67,7 @@
 .AgiluxHomeContainer>div {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 /* Fade-in effect */
@@ -82,6 +84,9 @@
 #Mobileonly{
     display: none;
 }
+.video-container{
+    height: 100%;
+}
 @media (max-width:769px) {
     #PcONly {
         display: none;
@@ -95,7 +100,7 @@
         position: relative;
         display: flex;
         justify-content: center;
-        height: 90vh;
+        height: 100vh;
     }
 
     .AgiluxHomeContentContainer .mySwiper {
@@ -106,8 +111,8 @@
         position: absolute;
         z-index: 5;
         width: 90%;
-        height: 100vh;
-        top: 10%;
+        /* height: 100vh; */
+        /* top: 10%; */
         display: flex;
         justify-content: center;
         align-items: center;

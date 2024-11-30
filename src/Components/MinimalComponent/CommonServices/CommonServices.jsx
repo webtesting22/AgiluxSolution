@@ -601,7 +601,7 @@ const serviceData = {
     'Backend-Development-Web': {
         title: "Backend-Development-Web",
         description: <>
-           <img src={BackendDev} alt="Agilux Solutions Backend Web Development - Powerful Server-Side Solutions" />
+           <img src="https://webtesting-upload.vercel.app/assets/BackendDev-We7dDZma.jpg" alt="Agilux Solutions Backend Web Development - Powerful Server-Side Solutions" />
             <p><b>Backend Development Technologies for Application Development</b></p>
             <p><b>1. Node.js for Scalable and High-Performance Applications</b></p>
             <p>Node.js is a popular JavaScript runtime that allows developers to use JavaScript for backend development. Known for its non-blocking, event-driven architecture, Node.js is ideal for building scalable, high-performance applications, especially real-time apps like chat applications or online gaming platforms.
@@ -697,7 +697,7 @@ const serviceData = {
     'Our-Content-Management-Systems': {
         title: "Our-Content-Management-Systems",
         description: <>
-          <img src={CMSWeb} alt="Agilux Solutions CMS Web Development - Custom Content Management Systems" />
+          <img src="https://webtesting-upload.vercel.app/assets/CMSWeb-CtRj0m5C.png" alt="Agilux Solutions CMS Web Development - Custom Content Management Systems" />
             <p><b>Our Content Management Systems</b></p>
             <p><b>1. WordPress: The Leading CMS</b></p>
             <p>WordPress is the most widely used CMS, powering over 40% of websites worldwide. Known for its versatility and user-friendly interface, it supports a vast ecosystem of themes and plugins that extend its functionality.
@@ -772,7 +772,7 @@ const serviceData = {
     "Testing-Quality-Assurance-web": {
         title: "Testing-Quality-Assurance-web",
         description: <>
-           <img src={TestingWeb} alt="Agilux Solutions Web Testing and Quality Assurance Services" />
+           <img src="https://webtesting-upload.vercel.app/assets/TestingWeb-Cwr6SGZm.jpg" alt="Agilux Solutions Web Testing and Quality Assurance Services" />
             <p><b>Best Practices for Testing and Quality Assurance</b></p>
             <p>Create a Testing Strategy: Develop a comprehensive testing strategy that outlines the testing types, tools, and processes you will use throughout the project lifecycle. Tailor your approach based on the specific requirements of the website.
             </p>
@@ -818,7 +818,7 @@ const serviceData = {
     "Post-Launch-Support-Web": {
         title: "Post-Launch-Support-Web",
         description: <>
-           <img src={PostLaunchSupport} alt="Agilux Solutions Post Launch Support for Web Applications" />
+           <img src="https://webtesting-upload.vercel.app/assets/Post-Launch-Support-nm6IyF-Y.jpg" alt="Agilux Solutions Post Launch Support for Web Applications" />
             <p><b>Our Components of Post-Launch Support and Maintenance</b></p>
             <ul>
                 <li><b>Regular Backups:</b> Establish a routine for backing up website data and files. Regular backups ensure that you can quickly restore your website in case of data loss or security breaches.

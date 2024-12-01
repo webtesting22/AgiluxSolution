@@ -25,12 +25,12 @@ const AppDevelopment = () => {
         {
             title: "Expoleads",
             image: Expoleads,
-            video: Exploleads,
+            video: "https://webtesting-upload.vercel.app/assets/Expoleads-kdB5gNVR.mp4",
             desctiption: "Expo Lead Connect is a dynamic mobile app revolutionizing event networking and lead management. Traditional business card exchanges with its QR Scanner, effortlessly capturing and organizing data on Name, Email, Address, Phone, and Services. Utilizing OCR Reader technology, the app seamlessly integrates with Firebase to enhance contact management, allowing users to export contact lists to CSV and easily save contacts to their phone book."
         },
         {
             title: "Crossfit",
-            video: crossfitpromo,
+            video: "https://webtesting-upload.vercel.app/assets/Gym-2_ae16vE.mp4",
             image: CrossFit,
             desctiption: "Unlock your full fitness potential with CROSSFIT, the ultimate app for gym members and trainers alike. Exclusively designed for trainers to manage their clients, CROSSFIT allows trainers to easily add members, schedule personalized fitness classes, and create tailored diet plans. Members can effortlessly track their workouts, view their class schedules, and access a library of fitness videos, including Zumba and other popular routines. Additionally, the app offers a convenient marketplace for purchasing fitness products like protein powder and supplements, ensuring all your fitness needs are met in one place."
         },
@@ -41,13 +41,13 @@ const AppDevelopment = () => {
         {
             title: "AMC Master",
             image: AMCmaster,
-            video: AMCMaster,
+            video: "https://webtesting-upload.vercel.app/assets/AMC-Cg86MIPU.mp4",
             desctiption: "Annual Maintenance Contract is a contract or project management app. Users can analyze their contract amount with all estimation of employees, raw material and supplier amount with charts and graphs."
         },
         {
             title: "Bakery Shop",
             image: BakeryShop,
-            video: BakeryShopVideo,
+            video: "https://webtesting-upload.vercel.app/assets/Bakery%20Shop-C6cBzlbh.mp4",
             desctiption: "Bakery Shop is the perfect app for both bakery owners and customers. As an owner, easily manage your orders with a clear view of pending and completed tasks, ensuring smooth operations. For customers, Bakery Shop offers a delightful browsing experience where you can select your favorite cakes and bakery items from an extensive menu. Once you've made your choices, simply complete your order with secure online payments, and enjoy your treats in no time."
         }
     ]

@@ -307,7 +307,7 @@ const AgiluxNavigation = () => {
             <div className="NavigationContainer">
                 <div className="AgiluxLogoAnimated">
                     <div className="AgiluxLogoContainer">
-                        <Link to="/"><img src={AgiluxLogo} alt="" /></Link>
+                        <Link to="/"><img src={AgiluxLogo} alt="" loading="lazy"/></Link>
                     </div>
                     <div className="ExploreTabs" onClick={showDrawer}>
                         <MdOutlineMenu />

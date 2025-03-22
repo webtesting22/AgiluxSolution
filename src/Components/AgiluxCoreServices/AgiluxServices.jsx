@@ -115,14 +115,14 @@ const AgiluxServices = () => {
                                     </div>
                                     <div className="IconsImages">
                                         {item.icons.map((icon, i) => (
-                                            <> <img key={i} src={icon} alt="icon" /></>
+                                            <> <img key={i} src={icon} alt="icon" loading="lazy"/></>
                                         ))}
                                     </div>
                                 </div>
                                 <img src={item.image} alt={item.Title} className="AnimatedHoverImage" style={{
                                     transform: transformValues[index],
                                     transition: 'transform 0.5 ease',
-                                }} />
+                                }} loading="lazy"/>
                                 <div>
                                     {item.Description}
                                     <br />

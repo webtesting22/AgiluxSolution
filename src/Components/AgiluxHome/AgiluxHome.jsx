@@ -83,7 +83,7 @@ const AgiluxHome = () => {
             <section className="AgiluxHomeContainer">
                 <div style={{ overflow: "hidden", width: "100%" }}>
                     <div className="video-container">
-                        <img src="/HomePageBanner.jpg" alt="" data-aos="zoom-in" data-aos-delay="200"  data-aos-duration="2000"/>
+                        <img src="/HomePageBanner.jpg" alt="" data-aos="zoom-in" data-aos-delay="200"  data-aos-duration="2000" loading="lazy"/>
                         {/* <video
                             id="PcONly"
                             ref={videoRef}

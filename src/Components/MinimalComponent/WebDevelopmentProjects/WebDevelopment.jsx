@@ -44,7 +44,7 @@ const WebDevelopment = () => {
                                     data-aos-duration="1000"
                                     data-aos-delay={`${index * 100}`}>
                                     <div className="ProjectimageContiner">
-                                        <img src={item.image} style={{ width: "100%" }} alt="Agilux Solutions company logo" />
+                                        <img src={item.image} style={{ width: "100%" }} alt="Agilux Solutions company logo" loading="lazy"/>
                                     </div>
                                     <p>/ {item.title}</p>
                                     <br />

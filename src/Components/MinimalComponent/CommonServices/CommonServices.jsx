@@ -25,7 +25,7 @@ const serviceData = {
     'UIUX': {
         title: 'UI-UX Design',
         description: <>
-            <img src="https://webtesting-upload.vercel.app/assets/UIUX-BtNKp_2o.jpg" alt="Agilux Solutions UI/UX Design Services Illustration" />
+            <img src="https://webtesting-upload.vercel.app/assets/UIUX-BtNKp_2o.jpg" alt="Agilux Solutions UI/UX Design Services Illustration" loading="lazy"/>
             <p>Effective UI/UX Design</p>
             <br />
             <p><b>User Research: </b>Conduct thorough user research to understand the target audience's needs, behaviors, and pain points. Utilize methods like surveys, interviews, and usability testing to gather valuable insights.</p>
@@ -102,7 +102,7 @@ const serviceData = {
         title: 'Frontend Development',
         description:
             <>
-                <img src="https://webtesting-upload.vercel.app/assets/AppFrontendDev-CSJoilkM.jpeg" alt="Agilux Solutions App Front-End Development Services Illustration" />
+                <img src="https://webtesting-upload.vercel.app/assets/AppFrontendDev-CSJoilkM.jpeg" alt="Agilux Solutions App Front-End Development Services Illustration" loading="lazy"/>
                 <p>Our Technologies for Application Development</p>
                 <br />
                 <p><b>1. Java for Android Frontend Development</b></p>
@@ -212,7 +212,7 @@ const serviceData = {
         title: 'Backend Development',
         description:
             <>
-                <img src="https://webtesting-upload.vercel.app/assets/AppbackendDev-DG8VT1h3.jpeg" alt="Backend App Development by Agilux Solutions - Scalable and Reliable Backend Services" />
+                <img src="https://webtesting-upload.vercel.app/assets/AppbackendDev-DG8VT1h3.jpeg" alt="Backend App Development by Agilux Solutions - Scalable and Reliable Backend Services" loading="lazy"/>
                 <p>Backend Development Technologies for Application Development</p>
                 <p><b>1. Node.js for Scalable and High-Performance Applications</b></p>
                 <p>Node.js is a popular JavaScript runtime that allows developers to use JavaScript for backend development. Known for its non-blocking, event-driven architecture, Node.js is ideal for building scalable, high-performance applications, especially real-time apps like chat applications or online gaming platforms.</p>
@@ -305,7 +305,7 @@ const serviceData = {
     'Testing-Quality-Assurance': {
         title: 'Testing-Quality-Assurance',
         description: <>
-            <img src="https://webtesting-upload.vercel.app/assets/Testing-DC0ISKod.jpg" alt="Agilux Solutions Testing and Quality Assurance Services - Ensuring Reliable Software Performance" />
+            <img src="https://webtesting-upload.vercel.app/assets/Testing-DC0ISKod.jpg" alt="Agilux Solutions Testing and Quality Assurance Services - Ensuring Reliable Software Performance" loading="lazy"/>
             <p>Manual Testing in Application Development</p>
             <p><b>Our Manual Testing:</b></p>
             <ul>
@@ -373,7 +373,7 @@ const serviceData = {
         title: 'Deployment-and-Submission',
         description:
             <>
-                <img src="https://webtesting-upload.vercel.app/assets/DeployementPublish-Bv26HUDK.jpeg" alt="Agilux Solutions Deployment and Submission Services - Seamless App Deployment and Submission Process" />
+                <img src="https://webtesting-upload.vercel.app/assets/DeployementPublish-Bv26HUDK.jpeg" alt="Agilux Solutions Deployment and Submission Services - Seamless App Deployment and Submission Process" loading="lazy"/>
                 <p>Best Practices for Deployment and Submission of Applications</p>
                 <ul>
                     <li><b>Automate Deployments:</b> Use CI/CD pipelines to automate the build, testing, and deployment processes, allowing for faster and more reliable updates.
@@ -601,7 +601,7 @@ const serviceData = {
     'Backend-Development-Web': {
         title: "Backend-Development-Web",
         description: <>
-           <img src="https://webtesting-upload.vercel.app/assets/BackendDev-We7dDZma.jpg" alt="Agilux Solutions Backend Web Development - Powerful Server-Side Solutions" />
+           <img src="https://webtesting-upload.vercel.app/assets/BackendDev-We7dDZma.jpg" alt="Agilux Solutions Backend Web Development - Powerful Server-Side Solutions" loading="lazy"/>
             <p><b>Backend Development Technologies for Application Development</b></p>
             <p><b>1. Node.js for Scalable and High-Performance Applications</b></p>
             <p>Node.js is a popular JavaScript runtime that allows developers to use JavaScript for backend development. Known for its non-blocking, event-driven architecture, Node.js is ideal for building scalable, high-performance applications, especially real-time apps like chat applications or online gaming platforms.
@@ -697,7 +697,7 @@ const serviceData = {
     'Our-Content-Management-Systems': {
         title: "Our-Content-Management-Systems",
         description: <>
-          <img src="https://webtesting-upload.vercel.app/assets/CMSWeb-CtRj0m5C.png" alt="Agilux Solutions CMS Web Development - Custom Content Management Systems" />
+          <img src="https://webtesting-upload.vercel.app/assets/CMSWeb-CtRj0m5C.png" alt="Agilux Solutions CMS Web Development - Custom Content Management Systems" loading="lazy"/>
             <p><b>Our Content Management Systems</b></p>
             <p><b>1. WordPress: The Leading CMS</b></p>
             <p>WordPress is the most widely used CMS, powering over 40% of websites worldwide. Known for its versatility and user-friendly interface, it supports a vast ecosystem of themes and plugins that extend its functionality.
@@ -772,7 +772,7 @@ const serviceData = {
     "Testing-Quality-Assurance-web": {
         title: "Testing-Quality-Assurance-web",
         description: <>
-           <img src="https://webtesting-upload.vercel.app/assets/TestingWeb-Cwr6SGZm.jpg" alt="Agilux Solutions Web Testing and Quality Assurance Services" />
+           <img src="https://webtesting-upload.vercel.app/assets/TestingWeb-Cwr6SGZm.jpg" alt="Agilux Solutions Web Testing and Quality Assurance Services" loading="lazy"/>
             <p><b>Best Practices for Testing and Quality Assurance</b></p>
             <p>Create a Testing Strategy: Develop a comprehensive testing strategy that outlines the testing types, tools, and processes you will use throughout the project lifecycle. Tailor your approach based on the specific requirements of the website.
             </p>
@@ -818,7 +818,7 @@ const serviceData = {
     "Post-Launch-Support-Web": {
         title: "Post-Launch-Support-Web",
         description: <>
-           <img src="https://webtesting-upload.vercel.app/assets/Post-Launch-Support-nm6IyF-Y.jpg" alt="Agilux Solutions Post Launch Support for Web Applications" />
+           <img src="https://webtesting-upload.vercel.app/assets/Post-Launch-Support-nm6IyF-Y.jpg" alt="Agilux Solutions Post Launch Support for Web Applications" loading="lazy"/>
             <p><b>Our Components of Post-Launch Support and Maintenance</b></p>
             <ul>
                 <li><b>Regular Backups:</b> Establish a routine for backing up website data and files. Regular backups ensure that you can quickly restore your website in case of data loss or security breaches.
@@ -895,7 +895,7 @@ const serviceData = {
         title: "Design Execution",
         description:
             <>
-               <img src="https://webtesting-upload.vercel.app/assets/DesignExecution-kVPdvy0K.jpg" alt="Agilux Solutions Design Execution for High-Quality User Interfaces" />
+               <img src="https://webtesting-upload.vercel.app/assets/DesignExecution-kVPdvy0K.jpg" alt="Agilux Solutions Design Execution for High-Quality User Interfaces" loading="lazy"/>
                 <p><b>Design Execution</b></p>
                 <p>From Concept to Creation</p>
                 <p>Once the concept is finalized, the next step is turning it into reality. Our Design Execution phase is where creativity meets precision, ensuring every design is crafted with attention to detail, consistency, and purpose. Whether it’s digital, print, or multimedia, we bring your ideas to life through flawless execution.
@@ -923,7 +923,7 @@ const serviceData = {
         title: "Revisions-and-Final-Adjustments",
         description:
             <>
-                <img src="https://webtesting-upload.vercel.app/assets/FinalAdjustments-7x2F4ZqJ.jpg" alt="Agilux Solutions Revisions and Final Adjustments for Optimized Designs" />
+                <img src="https://webtesting-upload.vercel.app/assets/FinalAdjustments-7x2F4ZqJ.jpg" alt="Agilux Solutions Revisions and Final Adjustments for Optimized Designs" loading="lazy"/>
                 <p><b>Revisions and Final Adjustments</b></p>
                 <p>Perfecting Every Detail</p>
                 <p>We understand that great design is a collaborative process, and feedback is essential to achieving the perfect final product. Our Revisions and Final Adjustments phase ensures that the design not only meets but exceeds your expectations. This is where your feedback and our expertise come together to fine-tune every detail, ensuring a flawless result.
@@ -953,7 +953,7 @@ const serviceData = {
         title: "File Preparation and Delivery",
         description:
             <>
-                <img src="https://webtesting-upload.vercel.app/assets/File%20PreparationandDelivery-C4qLe9j_.jpg" alt="Agilux Solutions File Preparation and Delivery Services" />
+                <img src="https://webtesting-upload.vercel.app/assets/File%20PreparationandDelivery-C4qLe9j_.jpg" alt="Agilux Solutions File Preparation and Delivery Services" loading="lazy"/>
                 <p><b>File Preparation and Delivery</b></p>
                 <p>Ready for Every Platform, Every Format</p>
                 <p>At the conclusion of every project, ensuring that the final design files are meticulously prepared and delivered in the correct formats is crucial for your success. Our File Preparation and Delivery process guarantees that your designs are not only visually stunning but also ready to be implemented flawlessly, whether for print, digital use, or multimedia applications.
@@ -986,7 +986,7 @@ const serviceData = {
     "Client-Handoff-and-Support": {
         title: "Client Handoff and Support",
         description: <>
-            <img src="https://webtesting-upload.vercel.app/assets/Client%20HandoffandSupport-zlwyHXgl.jpg" alt="Agilux Solutions Client Handoff and Support Services" />
+            <img src="https://webtesting-upload.vercel.app/assets/Client%20HandoffandSupport-zlwyHXgl.jpg" alt="Agilux Solutions Client Handoff and Support Services" loading="lazy"/>
             <p><b>Client Handoff and Support</b></p>
             <p>Seamless Handoff, Ongoing Support</p>
             <p>At the end of every project, we ensure a smooth and seamless handoff, giving you everything you need to successfully implement your new designs. Our Client Handoff and Support process is designed to ensure that you feel confident using and applying the final designs, with ongoing support to address any future needs.
@@ -1026,7 +1026,7 @@ const serviceData = {
     "Test-Environment-Setup": {
         title: "Test Environment Setup",
         description: <>
-            <img src={testEnviroment} alt="Agilux Solutions Test Environment Setup" />
+            <img src={testEnviroment} alt="Agilux Solutions Test Environment Setup" loading="lazy"/>
             <p><b>Hardware and Software Requirements</b></p>
             <p>Identifying the required hardware (e.g., servers, databases) and software (e.g., operating systems, browsers, and applications) to ensure compatibility with the system under test. Proper configuration of these components allows the QA team to simulate the actual production environment.</p>
 
@@ -1068,7 +1068,7 @@ const serviceData = {
     "Unit-Testing-Automation": {
         title: "Unit Testing Automation",
         description: <>
-            <img src={UnitTesting} alt="Agilux Solutions Unit Testing Automation" />
+            <img src={UnitTesting} alt="Agilux Solutions Unit Testing Automation" loading="lazy"/>
             <p>At Agilux, we specialize in Unit Testing Automation to guarantee the reliability and functionality of your software components, helping you accelerate development and reduce maintenance costs.
             </p>
 
@@ -1098,7 +1098,7 @@ const serviceData = {
     "Integration-Testing-Automation": {
         title: "Integration Testing Automation",
         description: <>
-            <img src={IntegrationTestingAutomation} alt="Agilux Solutions Integration Testing Automation" />
+            <img src={IntegrationTestingAutomation} alt="Agilux Solutions Integration Testing Automation" loading="lazy"/>
             <p>At Agilux, we specialize in Integration Testing Automation, ensuring that individual software modules work together seamlessly as a unified system. As part of our comprehensive QA Automation Testing services, our integration testing ensures that various components, APIs, and services communicate flawlessly to provide a smooth user experience and minimize the risk of system failures.
             </p>
 
@@ -1133,7 +1133,7 @@ const serviceData = {
     "Performance-Testing-Automation": {
         title: "Performance Testing Automation",
         description: <>
-            <img src={PerformanceTestingAutomation} alt="Agilux Solutions Performance Testing Automation" />
+            <img src={PerformanceTestingAutomation} alt="Agilux Solutions Performance Testing Automation" loading="lazy"/>
             <p>At Agilux, we offer Performance Testing Automation services to ensure your application performs seamlessly under various conditions, even at peak loads. Our performance testing ensures that your software remains reliable, responsive, and scalable by identifying bottlenecks and performance issues before they affect your users.
             </p>
 
@@ -1173,7 +1173,7 @@ const serviceData = {
     "Test-Report-and-Documentation": {
         title: "Test Report and Documentation",
         description: <>
-            <img src={TestReportandDocumentation} alt="Agilux Solutions Test Report and Documentation" />
+            <img src={TestReportandDocumentation} alt="Agilux Solutions Test Report and Documentation" loading="lazy"/>
             <p>At Agilux, we prioritize delivering detailed and easy-to-understand test reports along with comprehensive documentation that outlines the entire testing lifecycle. This gives your team an organized view of the testing process, from planning to execution and final results.
             </p>
 
@@ -1224,7 +1224,7 @@ const serviceData = {
     "Search-Engine-Optimization-(SEO)": {
         title: "Search Engine Optimization (SEO)",
         description: <>
-           <img src={SearchEngineOptimization} alt="Search Engine Optimization Services - Agilux Solutions" />
+           <img src={SearchEngineOptimization} alt="Search Engine Optimization Services - Agilux Solutions" loading="lazy"/>
             <p>At Agilux, we specialize in providing comprehensive SEO (Search Engine Optimization) solutions that enhance your online presence, drive organic traffic, and position your brand at the top of search engine results. In today’s digital landscape, SEO is a critical part of any successful brand-building strategy, allowing businesses to attract high-quality leads, increase visibility, and establish authority in their industry.
             </p>
 
@@ -1300,7 +1300,7 @@ const serviceData = {
     "Social-Media-Marketing-(SMM)": {
         title: "Social Media Marketing (SMM)",
         description: <>
-           <img src={SocialMediaMarketing} alt="Social Media Marketing Services - Agilux Solutions" />
+           <img src={SocialMediaMarketing} alt="Social Media Marketing Services - Agilux Solutions" loading="lazy"/>
             <p>At Agilux, we harness the power of Social Media Marketing (SMM) to build impactful brand identities, drive engagement, and grow your business. In today's digital world, social media platforms are essential tools for connecting with your audience, promoting products and services, and building long-lasting relationships. Our tailored SMM strategies ensure your brand stands out, engages with its audience, and converts followers into loyal customers.</p>
 
             <br></br>
@@ -1384,7 +1384,7 @@ const serviceData = {
     "Video-Production-and-Editing": {
         title: "Video Production and Editing",
         description: <>
-            <img src={VideoProductionandEditing} alt="Video Production and Editing Services - Agilux Solutions" />
+            <img src={VideoProductionandEditing} alt="Video Production and Editing Services - Agilux Solutions" loading="lazy"/>
             <p>At Agilux, we offer high-quality Video Production and Editing services designed to captivate your audience, tell your brand’s story, and drive meaningful engagement. In today’s fast-paced digital world, video content is one of the most powerful tools for building brand awareness, increasing conversion rates, and standing out from the competition. From dynamic motion design to compelling animation videos and engaging video ads, our team crafts videos that leave a lasting impression.</p>
 
             <br></br>

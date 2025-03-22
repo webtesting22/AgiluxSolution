@@ -19,7 +19,7 @@ const AgiluxBlog = () => {
           {/* Main blog content */}
           <div className="BlackOverlay"></div>
           <div className="BlogMainColumn">
-            <img src={currentBlog.image} style={{ width: "100%", borderRadius: "10px" }} alt={currentBlog.title} />
+            <img src={currentBlog.image} style={{ width: "100%", borderRadius: "10px" }} alt={currentBlog.title} loading="lazy"/>
             <h2><b>{currentBlog.title}</b></h2>
             <div>{currentBlog.content}</div>
           </div>
@@ -35,7 +35,7 @@ const AgiluxBlog = () => {
                   className="BlogSidebarItem"
                   onClick={() => handleBlogClick(blog)}
                 >
-                  <img src={blog.image} style={{ width: "100%" }} alt={blog.title} />
+                  <img src={blog.image} style={{ width: "100%" }} alt={blog.title} loading="lazy"/>
                   <br /><br />
                   <h4><b>{blog.title}</b></h4>
                   <span style={{fontSize:"12px"}}>/ Agilux Solutions</span>

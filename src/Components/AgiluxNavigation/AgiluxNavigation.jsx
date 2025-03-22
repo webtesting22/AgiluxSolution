@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./AgiluxNavigation.css";
-import { Button, Drawer, Collapse } from 'antd';
+import { Button, Drawer, Collapse, Row, Col } from 'antd';
 import { Link } from "react-router-dom";
 import { MdOutlineMenu } from "react-icons/md";
 import AgiluxLogo from "./AgiluxLogo.png"
@@ -186,7 +186,7 @@ const AgiluxNavigation = () => {
                                 </div>
                             </>
                         )}><span>Graphic Designing<hr /></span></p>
-                       
+
                         {/* <p onClick={() => showChildrenDrawer(
                             <>
                                 <div className="ChildDrawerContent">
@@ -227,7 +227,7 @@ const AgiluxNavigation = () => {
                         <p onClick={() => showChildrenDrawer(
                             <>
                                 <div className="ChildDrawerContent">
-                                <Link to="/services/Search-Engine-Optimization-(SEO)"
+                                    <Link to="/services/Search-Engine-Optimization-(SEO)"
                                         onClick={() => {
                                             onClose();
                                             onChildrenDrawerClose();
@@ -284,12 +284,30 @@ const AgiluxNavigation = () => {
         },
     ];
 
+
+    const BottomCardContent = [
+        {
+            title: "App Dev",
+            video: "/GraphicsVideosNav/AppDev.mp4"
+        },
+        {
+            title: "Web Dev",
+            video: "/GraphicsVideosNav/WebDev.mp4"
+
+        },
+        {
+            title: "GraphicsDesign",
+            video: "/GraphicsVideosNav/GraphicsDesign.mp4"
+        },
+
+    ]
+
     return (
         <div className={`AgiluxNavigation ${scrolled ? 'scrolled' : ''}`}>
             <div className="NavigationContainer">
                 <div className="AgiluxLogoAnimated">
                     <div className="AgiluxLogoContainer">
-                    <Link to="/"><img src={AgiluxLogo} alt="" /></Link>
+                        <Link to="/"><img src={AgiluxLogo} alt="" /></Link>
                     </div>
                     <div className="ExploreTabs" onClick={showDrawer}>
                         <MdOutlineMenu />
@@ -298,7 +316,7 @@ const AgiluxNavigation = () => {
                     <Drawer
                         title={<>
                             <div >
-                                <h3>Explore</h3>
+                                <h3 style={{ marginTop: "23px" }}>Explore</h3>
                             </div>
                         </>}
                         width={520}
@@ -310,6 +328,24 @@ const AgiluxNavigation = () => {
                             X
                         </button>
                         <Collapse accordion items={items} />
+                        <div className="RelatedContainer">
+                            <div className="AbsoluteContainerBottom">
+                                <Row>
+                                    {BottomCardContent.map((item, index) => (
+                                        <Col lg={8} md={8} key={index}>
+                                            <div className="DesignCards">
+                                                {item.video ? (
+                                                    <video src={item.video} autoPlay loop muted playsInline className="video-card" />
+                                                ) : (
+                                                    <p>No video available</p>
+                                                )}
+                                            </div>
+                                        </Col>
+                                    ))}
+
+                                </Row>
+                            </div>
+                        </div>
                     </Drawer>
 
                     <Drawer
@@ -321,7 +357,7 @@ const AgiluxNavigation = () => {
                     >
                         <button onClick={onChildrenDrawerClose}>X</button>
                         {/* Display the selected content here */}
-                       {selectedContent}
+                        {selectedContent}
                     </Drawer>
                 </div>
             </div>

@@ -14,7 +14,7 @@
 }
 
 .BlackOverlay {
-    background-color: rgba(0, 0, 0, 0.82);
+    background-color: rgb(0 0 0 / 62%);
     height: 100%;
     position: absolute;
     bottom: 0px;

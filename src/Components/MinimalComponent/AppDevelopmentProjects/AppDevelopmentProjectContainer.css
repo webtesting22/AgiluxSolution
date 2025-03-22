@@ -32,6 +32,8 @@
     flex-direction: column;
     justify-content: center;
     padding: 0rem 8rem;
+    margin-bottom:-5rem;
+    transition: .5s;
 }
 
 .TopContainer h2 {
@@ -40,6 +42,7 @@
     /* margin: 10px 0px; */
     margin-top: 0px;
     margin-bottom: 10px;
+    transition: .5s;
 }
 
 @media (max-width:769px){
@@ -52,6 +55,7 @@
     }
     .CardContinerPadding {
         padding: 0rem 1rem;
+        transition: .5s;
     }
     .TopContainer {
         height: 40vh;
@@ -59,5 +63,7 @@
         flex-direction: column;
         justify-content: center;
         padding: 0rem 1rem;
+        margin-bottom:-3rem;
+        transition: .5s;
     }
 }

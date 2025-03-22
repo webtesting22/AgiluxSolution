@@ -35,21 +35,21 @@ const AgiluxHome = () => {
         }
     }, []);
 
-    // Handle video time updates to fade out near the end
-    const handleTimeUpdate = () => {
-        const video = videoRef.current;
-        if (video && video.duration - video.currentTime <= 0.5) { // 0.5 seconds before the video ends
-            setIsFading(true); // Trigger fade out
-        }
-    };
+    // // Handle video time updates to fade out near the end
+    // const handleTimeUpdate = () => {
+    //     const video = videoRef.current;
+    //     if (video && video.duration - video.currentTime <= 0.5) { // 0.5 seconds before the video ends
+    //         setIsFading(true); // Trigger fade out
+    //     }
+    // };
 
-    // Handle video ending event to loop smoothly
-    const handleVideoEnd = () => {
-        const video = videoRef.current;
-        setIsFading(false); // Reset fading
-        video.currentTime = 0; // Reset video to the start
-        video.play(); // Restart the video
-    };
+    // // Handle video ending event to loop smoothly
+    // const handleVideoEnd = () => {
+    //     const video = videoRef.current;
+    //     setIsFading(false); // Reset fading
+    //     video.currentTime = 0; // Reset video to the start
+    //     video.play(); // Restart the video
+    // };
 
     const headings = [
         "Transforming Ideas into Digital Reality",
@@ -69,7 +69,7 @@ const AgiluxHome = () => {
                 setCurrentHeading((prevHeading) => (prevHeading + 1) % headings.length); // Change the heading
                 setFade(true); // Start fade-in effect
             }, 500); // Wait for fade-out to complete before changing
-        }, 4000); // Change heading every 2 seconds
+        }, 2000); // Change heading every 2 seconds
 
         return () => clearInterval(interval);
     }, [headings.length]);
@@ -83,7 +83,8 @@ const AgiluxHome = () => {
             <section className="AgiluxHomeContainer">
                 <div style={{ overflow: "hidden", width: "100%" }}>
                     <div className="video-container">
-                        <video
+                        <img src="/HomePageBanner.jpg" alt="" data-aos="zoom-in" data-aos-delay="200"  data-aos-duration="2000"/>
+                        {/* <video
                             id="PcONly"
                             ref={videoRef}
                             src="https://webtesting-upload.vercel.app/assets/BackGround-DuFX_wDI.mp4"
@@ -106,15 +107,15 @@ const AgiluxHome = () => {
                             onTimeUpdate={handleTimeUpdate}
                             onEnded={handleVideoEnd}
                             style={{ width: '100%', objectFit:"cover"  }}
-                        />
+                        /> */}
 
                     </div>
                     <div className="BlackOverlay">
 
                     </div>
                     <div className="AgiluxHomeContentContainer">
-                        <div>
-                            <h1 className={`HomePageAgiluxHeading ${fade ? 'fade-in' : 'fade-out'}`}>
+                        <div data-aos="fade-up" data-aos-delay="200"  data-aos-duration="2000">
+                            <h1 className={`HomePageAgiluxHeading ${fade ? 'fade-in' : 'fade-out'}`} >
                                 {headings[currentHeading]}
                             </h1>
                             <div style={{ display: "flex", alignContent: "center" }}>

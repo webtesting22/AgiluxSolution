@@ -42,13 +42,13 @@ const AgiluxProcess = () => {
                 <div className="BackOverlayImage">
 
                     <div className="AgiluxProcessContainer">
-                        <img src={Background} alt="Agilux Digital Agency Process Banner for Desktop" id="PCOnly" />
+                        <img src="https://images.unsplash.com/photo-1525547867522-cf8070ed441c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Agilux Digital Agency Process Banner for Desktop" id="PCOnly" />
                         <img src={BackgroundMobile} id="MobileOnly" alt="Agilux Digital Agency Process Banner for Mobile" />
                         <div className="BlackOverlay">
 
                         </div>
                         <div className="anothercontainer">
-                            <div style={{ width: "90%", padding: "0px 20px" }}>
+                            <div style={{ width: "90%"}}>
                                 <h4>/ Our Process</h4>
                                 {/* <div style={{ display: "flex", justifyContent: "space-Between", padding: "2rem 0rem" }}>
                                 <h2>Leading with Purpose</h2>

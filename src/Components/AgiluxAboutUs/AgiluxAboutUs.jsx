@@ -84,7 +84,7 @@ const AgiluxAboutUs = () => {
 
                     </div>
                     <div className="anothercontainer">
-                        <div style={{ width: "100%", padding: "0px 20px" }}>
+                        <div style={{ width: "100%"}}>
                             <h4>/ Our values are simple yet powerful:</h4>
                             {/* <div style={{ display: "flex", justifyContent: "space-Between", padding: "2rem 0rem" }}>
                                 <h2>Leading with Purpose</h2>

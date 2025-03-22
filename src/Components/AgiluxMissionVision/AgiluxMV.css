@@ -3,7 +3,7 @@
 }
 
 .OurMissionDetails h2 {
-    font-size: 60px;
+    font-size: 32px;
     font-weight: 100;
     /* margin: 10px 0px; */
     margin-top: 0px;
@@ -17,6 +17,8 @@
 .SameContainer {
     padding: 2rem 0rem;
 }
+
+
 
 @media (max-width:769px) {
     .OurMissionDetails h2 {

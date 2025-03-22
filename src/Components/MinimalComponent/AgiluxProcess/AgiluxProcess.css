@@ -1,5 +1,5 @@
 .AgiluxProcessContainer {
-
+height: 500px;
     position: sticky;
     right: 0px;
     left: 0px;
@@ -11,7 +11,9 @@
 }
 
 .anothercontainer {
-    width: 80%;
+    padding: 0rem 8rem;
+    left: 0px;
+    right: 0px;
 }
 
 .AgiluxProcessContainer h2 {
@@ -65,6 +67,7 @@
     
     .anothercontainer {
         width: 100%;
+        padding: 0rem 1rem;
     }
 
     .SwiperContentContainer {

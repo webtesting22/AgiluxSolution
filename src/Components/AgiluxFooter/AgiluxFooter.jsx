@@ -31,6 +31,7 @@ const AgiluxFooter = () => {
                                 <Link to="https://x.com/AgiluxSolution" target="_blank"><li>Twitter</li></Link>
                                 <Link to="https://www.linkedin.com/company/agiluxsolution/" target="_blank"><li>LinkedIn</li></Link>
                                 <Link to="https://www.facebook.com/profile.php?id=61579304018125" target="_blank"><li>Facebook</li></Link>
+                                <Link to="https://medium.com/@agiluxsolution" target="_blank"><li>Medium</li></Link>
                             </ul>
                         </div>
                     </div>

@@ -83,7 +83,7 @@ const AgiluxHome = () => {
             <section className="AgiluxHomeContainer">
                 <div style={{ overflow: "hidden", width: "100%" }}>
                     <div className="video-container">
-                        <img src="/HomePageBanner.jpg" alt="" data-aos="zoom-in" data-aos-delay="200"  data-aos-duration="2000" loading="lazy"/>
+                        <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=2020&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" data-aos="zoom-in" data-aos-delay="200"  data-aos-duration="2000" loading="lazy"/>
                         {/* <video
                             id="PcONly"
                             ref={videoRef}

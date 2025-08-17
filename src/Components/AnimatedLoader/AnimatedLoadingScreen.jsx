@@ -20,7 +20,7 @@ const AnimatedLoadingScreen = () => {
             className={headingAnimationComplete ? "fade-out" : ""}
         >
             <h1 className="animated-heading">
-                {"Agilux Solutions".split("").map((char, index) => (
+                {"Agilux Solution".split("").map((char, index) => (
                     <span key={index} style={{ animationDelay: `${index * 0.1}s` }}>
                         {char}
                     </span>

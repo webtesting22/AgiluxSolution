@@ -16,7 +16,7 @@ const AgiluxFooter = () => {
                         </div>
                         <br />
                         <div className="EmailAnimation">
-                            <Link to="https://wa.me/9558653846" target="_blank"><h4>Chat Via <span style={{ fontWeight: "400" }}>whatsapp</span></h4></Link>
+                            <Link to="https://wa.me/8866415586" target="_blank"><h4>Chat Via <span style={{ fontWeight: "400" }}>whatsapp</span></h4></Link>
                             <hr />
                         </div>
                     </div>
